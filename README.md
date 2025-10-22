@@ -94,6 +94,7 @@ Open the local URL displayed in the terminal, ask questions, and verify citation
 - **"No chunks produced"**: PDF pages without extractable text may be scanned images; try providing a plain text file.
 - **Weak or missing citations**: Increase the *Top-K passages* slider in the app or rebuild the index with a larger chunk size.
 - **HF errors / 401**: Confirm that `HF_TOKEN` has access to the requested model.
+- **404 when calling the model**: Check the spelling of `HF_MODEL` and make sure the model repo (e.g. `microsoft/Phi-3-mini-4k-instruct`) is public or shared with your token. Private or gated models require a token with permission.
 - **Timeouts**: Use a smaller model via `HF_MODEL` or retry later; hosted inference endpoints can be busy.
 
 Enjoy building on this RAG starter!
