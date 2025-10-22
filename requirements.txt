@@ -1,0 +1,10 @@
+streamlit
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+sentence-transformers
+faiss-cpu
+pypdf
+numpy
+tqdm
+huggingface-hub
+python-dotenv
