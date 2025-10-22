@@ -1,12 +1,17 @@
-import os, json
+"""Command-line interface for asking questions against the local FAISS index."""
+
+import argparse
+import json
+import os
+import sys
+from functools import lru_cache
 from typing import List, Tuple
 
-import numpy as np
-import streamlit as st
 import faiss
-from sentence_transformers import SentenceTransformer
+import numpy as np
 from huggingface_hub import InferenceClient
 from requests.exceptions import HTTPError
+from sentence_transformers import SentenceTransformer
 
 INDEX_DIR = "index"
 EMBED_MODEL = "intfloat/e5-small-v2"
@@ -18,23 +23,43 @@ SYSTEM_PROMPT = (
     "Cite sources as [#] matching the order of the context items."
 )
 
-HF_TOKEN = os.getenv("HF_TOKEN", None)
+HF_TOKEN = os.getenv("HF_TOKEN")
 HF_MODEL = os.getenv("HF_MODEL", DEFAULT_HF_MODEL)
 
-st.set_page_config(page_title="Unhackathon Q&A", page_icon="❓")
-st.title("Unhackathon Q&A (RAG)")
 
-if HF_TOKEN is None:
-    st.warning("HF_TOKEN is not set. Set it as an environment variable or a Cloud Secret.")
+class MissingCredentialError(RuntimeError):
+    """Raised when the HF token is missing."""
 
 
-@st.cache_resource
-def load_assets() -> Tuple[faiss.Index, List[dict], SentenceTransformer, InferenceClient]:
-    idx = faiss.read_index(f"{INDEX_DIR}/faiss.index")
-    with open(f"{INDEX_DIR}/chunks.json", "r", encoding="utf-8") as f:
+@lru_cache(maxsize=1)
+def load_assets(
+    index_dir: str,
+    embed_model: str,
+    hf_model: str,
+    hf_token: str,
+) -> Tuple[faiss.Index, List[dict], SentenceTransformer, InferenceClient]:
+    if not hf_token:
+        raise MissingCredentialError(
+            "HF_TOKEN is required. Set it as an environment variable or pass --hf-token."
+        )
+
+    index_path = os.path.join(index_dir, "faiss.index")
+    chunks_path = os.path.join(index_dir, "chunks.json")
+
+    if not os.path.exists(index_path):
+        raise FileNotFoundError(
+            f"Missing FAISS index at {index_path}. Build it via `python build_index.py`."
+        )
+    if not os.path.exists(chunks_path):
+        raise FileNotFoundError(
+            f"Missing chunk metadata at {chunks_path}. Rebuild with `python build_index.py`."
+        )
+
+    idx = faiss.read_index(index_path)
+    with open(chunks_path, "r", encoding="utf-8") as f:
         chunks = json.load(f)
-    emb = SentenceTransformer(EMBED_MODEL)
-    client = InferenceClient(model=HF_MODEL, token=HF_TOKEN, timeout=60)
+    emb = SentenceTransformer(embed_model)
+    client = InferenceClient(model=hf_model, token=hf_token, timeout=60)
     return idx, chunks, emb, client
 
 
@@ -217,35 +242,124 @@ def _format_hf_http_error(err: HTTPError) -> Tuple[str, str | None]:
     return message, hint
 
 
-with st.sidebar:
-    st.subheader("Settings")
-    k = st.slider("Top-K passages", 2, 8, 4, 1)
-    st.caption("If citations feel weak, increase Top-K.")
+def _build_arg_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        description="Query the local FAISS index and ask a hosted Hugging Face model."
+    )
+    parser.add_argument(
+        "question",
+        nargs="*",
+        help="Question to ask. If omitted, the script prompts via stdin.",
+    )
+    parser.add_argument(
+        "-k",
+        "--top-k",
+        type=int,
+        default=4,
+        help="Number of chunks to retrieve (default: 4).",
+    )
+    parser.add_argument(
+        "--show-context",
+        action="store_true",
+        help="Print the retrieved context passages for inspection.",
+    )
+    parser.add_argument(
+        "--hf-model",
+        help="Override the Hugging Face model ID (defaults to env HF_MODEL or configured default).",
+    )
+    parser.add_argument(
+        "--hf-token",
+        help="Override the Hugging Face token (defaults to env HF_TOKEN).",
+    )
+    parser.add_argument(
+        "--index-dir",
+        default=INDEX_DIR,
+        help="Directory containing faiss.index and chunks.json (default: index).",
+    )
+    return parser
 
-question = st.text_input("Ask a question about your docs:")
-if st.button("Answer") and question.strip():
+
+def _prompt_for_question() -> str:
     try:
-        idx, chunks, emb, client = load_assets()
-        ctx_texts, labels = retrieve(idx, chunks, emb, question, k=k)
-        if not ctx_texts:
-            st.write("I don't know based on the provided sources.")
-        else:
-            answer = generate_answer(client, question, ctx_texts)
-            st.subheader("Answer")
-            st.write(answer)
-            st.subheader("Sources")
-            for s in labels:
-                st.write(f"- {s}")
-            with st.expander("Show retrieved passages"):
-                for txt, lab in zip(ctx_texts, labels):
-                    st.markdown(f"**{lab}**")
-                    st.write(txt)
+        return input("Enter your question: ").strip()
+    except EOFError:
+        return ""
+
+
+def _print_sources(labels: List[str]) -> None:
+    if not labels:
+        print("No sources retrieved.")
+        return
+    print("Sources:")
+    for label in labels:
+        print(f" - {label}")
+
+
+def _print_context(ctx_texts: List[str], labels: List[str]) -> None:
+    if not ctx_texts:
+        return
+    print("\n--- Retrieved Passages ---")
+    for label, text in zip(labels, ctx_texts):
+        print(label)
+        print(text)
+        print()
+
+
+def main(argv: List[str] | None = None) -> int:
+    parser = _build_arg_parser()
+    args = parser.parse_args(argv)
+
+    question = " ".join(args.question).strip()
+    if not question:
+        question = _prompt_for_question()
+
+    if not question:
+        print("Provide a question via CLI arguments or stdin.", file=sys.stderr)
+        return 1
+
+    hf_token = args.hf_token or HF_TOKEN
+    hf_model = args.hf_model or HF_MODEL
+
+    try:
+        idx, chunks, emb, client = load_assets(args.index_dir, EMBED_MODEL, hf_model, hf_token)
+    except MissingCredentialError as err:
+        print(err, file=sys.stderr)
+        return 2
+    except FileNotFoundError as err:
+        print(err, file=sys.stderr)
+        return 3
+    except Exception as err:  # pragma: no cover - defensive catch for asset loading
+        print(f"Failed to load assets: {err}", file=sys.stderr)
+        return 4
+
+    ctx_texts, labels = retrieve(idx, chunks, emb, question, k=args.top_k)
+
+    if not ctx_texts:
+        print("I don't know based on the provided sources.")
+        return 0
+
+    try:
+        answer = generate_answer(client, question, ctx_texts)
     except HTTPError as err:
         message, hint = _format_hf_http_error(err)
-        st.error(message)
+        print(message, file=sys.stderr)
         if hint:
-            st.info(hint)
-        st.stop()
-    except Exception as e:
-        st.error(f"Error: {e}")
-        st.stop()
+            print(f"Hint: {hint}", file=sys.stderr)
+        return 5
+    except Exception as err:
+        print(f"Generation failed: {err}", file=sys.stderr)
+        return 6
+
+    print("Answer:\n")
+    print(answer)
+    print()
+    _print_sources(labels)
+
+    if args.show_context:
+        _print_context(ctx_texts, labels)
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
