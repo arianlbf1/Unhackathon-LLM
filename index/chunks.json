@@ -1,0 +1,1037 @@
+[
+  {
+    "text": "U . S . D E P A R T M E N T O F H E A L T H A N D H U M A N S E R V I C E S Title slide OFFICE OF THE CHIEF INFORMATION OFFICER DEPARTMENT OF HEALTH AND HUMAN SERVICES The Department of Health and Human Services Cybersecurity Awareness Training FISCAL YEAR 2016",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 1
+  },
+  {
+    "text": "Course Outline • Course Introduction • Lesson 1: Information Security Overview • Lesson 2: Information Security Policy & Governance • Lesson 3: Physical Access Controls • Lesson 4: Email & Internet Security • Lesson 5: Security Outside the Office • Lesson 6: Privacy • Lesson 7: Insider Threat • Lesson 8: Incident Reporting • Summary • Rules of Behavior 2",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 2
+  },
+  {
+    "text": "COURSE INTRODUCTION 3",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 3
+  },
+  {
+    "text": "Cybersecurity Awareness Course 4 Welcome! This course is designed to provide Department of Health and Human Services (HHS) employees, contractors, and others with access to Department systems and networks with the knowledge to protect information systems and sensitive data from internal and external threats. This course fulfills the Federal Information Security Management Act of 2002 (FISMA) requirement for security awareness training for users of federal information systems. When you are ready to continue, scroll down or use the right-arrow key on your keyboard.",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 4
+  },
+  {
+    "text": "HHS Mission HHS employees and contractors enhance the health and well-being of Americans by providing for effective health and human services and by fostering sound, sustained advances in the sciences underlying medicine, public health, and social services. 5",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 5
+  },
+  {
+    "text": "Course Objectives At the end of this course, you will be able to: • Define information systems security; • Identify federal regulations that mandate the protection of IT assets and information; • Describe HHS’ IT security and privacy policies, procedures, and practices; • Define sensitive data; • Describe your personal responsibility to protect information systems and privacy, and the consequences for violations; • Recognize threats to information systems and privacy; • Identify best practices to secure IT assets and data at the office or at home; • Define privacy and personally identifiable information (PII); • Define encryption and determine how and when to encrypt; • Protect PII in different contexts and formats; • List the traits that may indicate an insider threat; and • Identify the correct procedure to report a suspected or confirmed security or privacy incident. 6",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 6
+  },
+  {
+    "text": "Course Information Hi, I’m Mark Payne, your Information System Security Officer (ISSO) for this course. Throughout thi s course, you’ll help me to defend the Department’s information systems and information from hackers and cyber criminals. Each of the lessons in this course covers an important aspect of cybersecurity awareness and privacy. Every so often, I’ll check back in with you and see how you’re progressing. ISSO – Mark Payne 7",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 7
+  },
+  {
+    "text": "LESSON 1: INFORMATION SECURITY OVERVIEW 8",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 8
+  },
+  {
+    "text": "Information Security Hi, Mark again. Okay, so what is Information Security (INFOSEC)? INFOSEC is how we protect information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction in order to provide: confidentiality, integrity, and availability. • Information security is achieved through implementing technical, management, and operational controls designed to protect the confidentiality, integrity and availability of information. • The goal of an INFOSEC program is to understand, manage, and reduce the risk to information under the control of the organization. ISSO – Mark Payne 9",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 9
+  },
+  {
+    "text": "Key Concepts There are three elements to protecting information: Confidentiality: Protecting information from unauthorized disclosure to people or processes. Availability: Defending information systems and resources from malicious and unauthorized users to ensure accessibility by authorized users. Integrity: Assuring the reliability and accuracy of information and IT resources. Your bank ATM is a good example of a secure information system. You expect your bank ATM system to have confidentiality, availability, and integrity. The amount of money in your account and your ATM personal ID number (PIN) should be confidential. You expect that your account balance information and cash should always be available from the ATM machine. The account balance information displayed by the ATM machine, and the amount of money dispensed by the machine must be accurate. In other words, have integrity. . 10",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 10
+  },
+  {
+    "text": "Threats & Vulnerabilities Threats and vulnerabilities put information assets at risk. Threats are the potential to cause unauthorized disclosure, change, or destruction to an asset. - Impact: potential breach in confidentiality, integrity failure and unavailability of information - Types: natural, environmental, man- made Vulnerabilities include any flaw or weakness that can be exploited and could result in a breach or a violation of a system’s security policy. Risk is the likelihood that a threat will exploit a vulnerability. 11",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 11
+  },
+  {
+    "text": "Security Controls IT security professionals use a combination of management, operational, and technical controls to manage risk : Management: Accreditation is a management control as is having a System Security Plan. Operational: Security awareness and training are operational controls as are physical security like guards, locks, and ID badges. Technical: User ID and authentication (i.e. passwords) and access control lists are examples of technical controls. 12",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 12
+  },
+  {
+    "text": "What is Sensitive Data? At HHS, sensitive information is information that has a degree of confidentiality such that its loss, misuse, unauthorized access, or modification could compromise the element of confidentiality and thereby adversely affect national health interests, the conduct of HHS programs, or the privacy of individuals entitled under The Privacy Act or the Health Insurance Portability and Accountability Act (HIPAA). Examples of sensitive information include, but are not limited to: • Personally Identifiable Information (PII), • Protected Health Information (PHI), • Intellection Property, and • Financial Data All sensitive information, including information stored or archived in shared folders, shall be available to authorized users only. Roles and responsibilities must be established and systems folders must be configured to allow least privileged access. When safeguarding sensitive information, be sure to: • Back up all stored or transmitted information, encrypt them, and file/archive the encrypted backup information. 13",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 13
+  },
+  {
+    "text": "them, and file/archive the encrypted backup information. 13",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 13
+  },
+  {
+    "text": "Knowledge Check What do you think is the goal of information security? a) Protect identity, availabi lity, and accuracy b) Protect confidentiality, availability, and integrity c) Protect availability, integrity, and accuracy d) Eliminate threats, ensure integrity, and provide access 14",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 14
+  },
+  {
+    "text": "Knowledge Check Answer What do you think is the goal of information security? a) Protect identity, availability, and accuracy b) Protect confidentiality, availability, and integrity c) Protect availability, integrity, and accuracy d) Eliminate threats, ensure integrity, and provide access The goal of information security is protecting confidentiality, availability, and integrity. The correct answer is B! 15",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 15
+  },
+  {
+    "text": "LESSON 2: INFORMATION SECURITY POLICY & GOVERNANCE 16",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 16
+  },
+  {
+    "text": "Federal & Departmental Guidance There are Federal and Departmental Guidelines that provide the backbone of IT security and privacy. Let’s take a look at the Federal Guidelines first. IT Security Legislation and Guidance Privacy Legislation National Institute of Standards and Technology (NIST) Special Publications E-Government Act of 2002 Clinger-Cohen Act of 1996 Health Insurance Portability and Accountability Act of 1996 (HIPAA) Office of Management and Budget (OMB) Circular A- 130 Privacy Act of 1974 Paperwork Reduction Act Children’s Online Privacy Protection Act (COPPA) OMB-07-16 NIST issues standards and guidelines to assist federal agencies in implementing security and privacy regulations. Special publications can be found at: NIST Publications. 17",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 17
+  },
+  {
+    "text": "Departmental Guidance The Department sets programmatic direction by pr oviding an enterprise-wide perspective, coordinating among key stakeholders, setting standards and providing guidance, and supporting streamlined reporting and metrics capabilities. HHS Cybersecurity Program is the Department’s information security program. Oversight is provided by the Office of the Chief Information Officer (CIO) and Chief Information Security Officer (CISO). Operating Divisions (OpDivs) implement programs that meet specific business needs, provide business/domain expertise, manage implementation at the OpDiv level, develop policies and procedures specific to the operating environment, and manage ongoing operations. HHS-OCIO Policy for Information Systems Security and Privacy - Provides direction on developing, managing, and operating an IT security program to the OpDivs and Staff Divisions (StaffDivs). HHS-OCIO Policy for Responding to Breaches of Personally Identifiable Information - Establishes actions taken to identify, manage, and respond to suspected or confirmed incidents involving Personally Identifiable Information (PII). Rules of Behavior for Use of HHS Information Resources – Provides the rules that govern appropriate use of Department information resources. Operating Divisions may have additional policies and programs specific to their operating environment, however they",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 18
+  },
+  {
+    "text": "Personally Identifiable Information (PII). Rules of Behavior for Use of HHS Information Resources – Provides the rules that govern appropriate use of Department information resources. Operating Divisions may have additional policies and programs specific to their operating environment, however they shall not be less strict than the Department’s rules. 18",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 18
+  },
+  {
+    "text": "Knowledge Check Who provides oversight for the Department’s information security program? a) Chief Financial Officer (CFO) b) OpDiv Chief Information Security Officer (CISO) c) Office of General Counsel (OGC) d) Chief Information Officer (CIO) 19",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 19
+  },
+  {
+    "text": "Knowledge Check Answer Who provides oversight for the Department’s information security program? a) Chief Financial Officer (CFO) b) OpDiv Chief Information Security Officer (CISO) c) Office of General Counsel (OGC) d) Chief Information Officer (CIO) The CIO along with the Department (not OpDiv) CISO provides oversight. The correct answer is D! 20",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 20
+  },
+  {
+    "text": ". Where to Get Guidance It’s important to be familiar with the Federal and Departmental Guidelines that inform the day-to-day information and informati on systems security rules and practices throughout the Department. These documents are available to you from a variety of sources, including:  Your Information Systems Security Officer (ISSO),  Your OpDiv’s Cybersecurity webpage, and  The HHS Office of Information Security (OIS) policy website Home page at: http://intranet.hhs.gov/it/cybersecurity/polici es/index.html 21",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 21
+  },
+  {
+    "text": "LESSON 3: PHYSICAL ACCESS CONTROLS 22",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 22
+  },
+  {
+    "text": "Password Protection Your user identification (ID) along with a strong password is a deterrent to prohibit unauthorized users or processes from accessing your computer system. While it is tempting to create an easy or generic password that is easy to remember, it is not very secure. Strong passwords have the following characteristics: – Eight or more characters in length – Characters from each of the following four categories:  Capital letter(s)  Lowercase letter(s)  Number(s)  Special character(s) (%,^,*,?,<,>) 23",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 23
+  },
+  {
+    "text": "Password Protection (continued) Having trouble remembering passwords? Use a passphrase. – Use the initials of a song or phrase to create a unique password – Example: “Take me out to the ballgame!” becomes “Tmo2tBG!” Commit passwords to memory. If you are still having trouble, then write it down and keep it in a secure place, like your wallet. DO NOT keep passwords near your computer or on your desk. 24",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 24
+  },
+  {
+    "text": "Password Protection Tips Here are some more important tips for protecting your password! • NEVER share your password with anyone. • Change your password every 60 days in accordance with HHS policy. • Commit passwords to memory. If you’re still having trouble, then write it down and keep it in a secure place, like your wallet. • Use a passphrase or mnemonic, like the initials to your favorite song, to help you remember your password. • Change your password immediately if you suspect it’s compromised. • Create a different password for each system or application. • Do not reuse passwords until six other passwords have been used. • Do not use generic information that can be easily obtained like family member names, pet names, birth dates, phone numbers, vehicle information, etc. 25",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 25
+  },
+  {
+    "text": "Knowledge Check Which of the following is a strong password? a) Timmy10 b) 123AbcTimmy4 c) T&E34dt72$R9k d) Mus tang_88! 26",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 26
+  },
+  {
+    "text": "Knowledge Check Answer Which of the following is a strong password? a) Timmy10 b) 123AbcTimmy4 c) T&E34dt72$R9k d) Mustang_88! Because it contains upper and lower case letters, numbers, and special characters (&!#$...). The correct answer is C! 27",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 27
+  },
+  {
+    "text": "Personal Identity Verification (PIV) Cards In accordance with Homeland Security Presidential Directive 12 (HSPD-12), the Personal Identity Verification (PIV) Card shall be the primary Access Card used to facilitate physical access to HHS facilities, enable strong authentication for access to HHS networks, information systems, and information, as well as secure information while at rest and in transit by allowing for encryption, digital signatures and providing a higher level of assurance. Personal Identity Verification (PIV) cards use smartchips that contain personally identifiable information (PII) and biometrics to reliably identify HHS staff. Because your PIV card grants you access to HHS facilities and (together with your PIN) to HHS computer networks and applications, you must maintain possession of it at all times. PIV cards are used to encrypt emails that contain PII and sensitive data. The Federal Information Processing Standards (FIPS) Publication 201-2; Personal Identity Verification (PIV) of Federal Employees and Contractors standardizes the process for issuing ID badges throughout the federal government. 28",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 28
+  },
+  {
+    "text": "201-2; Personal Identity Verification (PIV) of Federal Employees and Contractors standardizes the process for issuing ID badges throughout the federal government. 28",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 28
+  },
+  {
+    "text": "PIV Card Protection Tips As a PIV card holder you are required to adhere to the following guidelines in order to safeguard and maintain your PIV card and credentials and ensure your associated record is kept up-to-date. • Always remove your PIV card from your computer’s card reader when leaving your desk. • Memorize your PIN; never write it down. • Keep it in a secure badge holder to shield it against unauthorized reading. • Take all required actions to maintain your PIV credentials, i.e., timely renewal of your PIV certificates or PIV card upon receiving notice. • Complete all mandatory training. 29",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 29
+  },
+  {
+    "text": "PIV Card Issues Ensure you or your federal supervisor or organization notifies your badging office immediately if/when:  You transfer to another organization within HHS,  You leave HHS,  Any of your personal information needs to be updated (e.g., name change or significant change in physical appearance),  Your badge was lost, stolen or damaged and you need a replacement,  Your badge no longer works after you attempted to update your certificate, or  Your badge became locked after ten failed PIN entries. Return your PIV card to your federal supervisor, designated administrative contact, or badging office if/when you leave HHS. 30",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 30
+  },
+  {
+    "text": "Physical Security: Tailgating Physical security is an important information systems safeguard. Limiting phy sical access to information systems and infrastructure to authorized personnel diminishes the likelihood that information will be stolen or misused. Combat tailgating • Employees must use their own badge to enter security doors. Never allow anyone to follow you into a secure area without his or her badge. • Be aware of procedures for entering a secure area, securing your workstation when you leave the office, and securing your workstation during emergencies. • Do not be afraid to challenge or report anyone who does not display a PIV card or visitor’s badge. • Escort visitors to and from your office and around the facility. • Do not allow anyone else to use your PIV card for building or secure area access. • Report any suspicious activity to the security office. 31",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 31
+  },
+  {
+    "text": "the security office. 31",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 31
+  },
+  {
+    "text": "Physical Security Tips Here are some additional tips regarding physical security! • Only connect government authorized removable media devices. Do not use personal external hard drives or thumb drives on government equipment. • Lock your computer when it’s not in use (CTL + ALT + DELETE). • Encrypt all devices which contain PII and sensitive information. • Store and transport removable media such as CDs, DVDs, flash drives, and external hard drives in a secure manner to prevent theft or loss. • Don’t leave sensitive information in plain sight when visitors are present or upon leaving your work area. Keep sensitive information in a secure safe or locked in a desk drawer. • Quickly retrieve faxes that are sent to you. Always confirm that the recipient received the fax that you sent. 32",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 32
+  },
+  {
+    "text": "LESSON 4: EMAIL & INTERNET SECURITY 33",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 33
+  },
+  {
+    "text": "Cyber Crime Cyber crime refers to any crime that involves a computer and a network. Offenses are primarily committed through the Internet. Common examples of cyber crime include:  Credit card fraud,  Phishing, and  Identity Theft. Government information and information systems are a high-value target. Criminals, terrorists, and nation states with malicious intent work daily to steal, disrupt, and change information systems at government agencies. 34",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 34
+  },
+  {
+    "text": "Social Engineering These individuals may look trustworthy, but may be sophisticated cyber criminals. They use social engineering techniques to obtain your personal information, access sensitive government information, and even steal your identity. Social engineering is typically defined as the art of manipulating and exploiting human behavior to gain unauthorized access to systems and information for fraudulent or criminal purposes. Social engineering attacks are more common and more successful than computer hacking attacks against the network. 35",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 35
+  },
+  {
+    "text": "Social Engineering (continued) Social engineering attacks are based on natural human desires like:  Trust,  Desire to help,  Desire to avoid conflict,  Fear,  Curiosity,  Ignorance, and carelessness. Common targets are:  Passwords,  Security badges,  Access to secure areas of the building,  Uniforms,  Smart phones,  Wallets, and  Employee’s personal information. 36",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 36
+  },
+  {
+    "text": "Phishing Attacks Phishing is a social engineering scam whereby intruders seek access to your personal information or passwords by posing as a real business or organization with legitimate reason to request information. Phishing emails (or texts) quite often alert you to a problem with your account and asks you to click on a link and provide information to correct the situation. These emails look real and often contain the organization’s logo and trademark. The URL in the email resembles the authentic web address. For example “Amazons.com”. Here is an example: 37",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 37
+  },
+  {
+    "text": "Phishing Attacks (continued) Two types of phishing you need to be aware of are: Spear phishing is an attack that targets a specific individual or business. The email is addressed to you and appears to be sent from an organization you know and trust, like a government agency or a professional association. Whaling is a phishing or spear phishing attack aimed at a senior official in the organization. NEVER provide your password to anyone via email. Be suspicious of any email that:  Requests personally identifiable information (PII),  Contains spelling and grammatical errors,  Asks you to click on a link,  Is unexpected or from a company or organization with whom you do not have a relationship, or  Has a different uniform resource locator (URL) web address than the one you typically use. 38",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 38
+  },
+  {
+    "text": "Avoid the Bait Here are some more important tips for protecting yourself from Phishing Attacks! If you are suspicious of an email:  Do forward the email to spam@hhs.gov and then delete it from your Inbox.  Do not click on the links provided in the email.  Do not open any attachments in the email.  Do not provide personal information or financial data. 39",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 39
+  },
+  {
+    "text": "Identity Theft Let’s talk about why “phishers” do what they do. One major reason that impacts you directly is identity theft. The Federal Trade Commission estimates that 9 million people have their identity stolen each year. Identity thieves use names, addresses, Social Security numbers, and financial information of their victims to obtain credit cards, loans, and bank accounts for themselves. 40",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 40
+  },
+  {
+    "text": "Identity Theft (continued) If you believe you are a victim of identity theft: Contact the three credit reporting companies (Equifax, Experian, and Trans Union) and place a fraud alert on your report. Inform your bank, credit card issuers and other financial institutions that you are a victim of identity theft. If you know who stole your information, contact the police and file a report. 41",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 41
+  },
+  {
+    "text": "Identity Theft (continued 2) Combat identity theft Be cautious when providing your Social Security number. Know how and why it will be used. Review credit card and bank statements at least monthly for unauthorized transactions. Use strong passwords for your home computer and web sites you visit, especially email accounts and financial institutions. Leave your Social Security card and passport at home. Never leave them in your purse or wallet unless necessary. Shred sensitive documents and mail containing your name, address, account numbers, and PII. 42",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 42
+  },
+  {
+    "text": "Malware Malware (short for malicious software) does damage to, steals information from, or disrupts a computer system. Email links and attachments are two of the most common sources of malware infection. Some examples of malware are:  Viruses, Worms, Trojan Horses, Root Kits, and Spyware. Combat malware  Read email in plain text and do not use the preview pane.  Scan attachments with antivirus software before downloading. Do not trust any attachments, even those that come from recognized senders.  Delete suspicious emails without opening them.  If you believe your computer is infected, contact your HHS Computer Security Incident Response Center (CSIRC) by email at csirc@hhs.gov or phone 866-646-7514; or contact your security POC. 43",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 43
+  },
+  {
+    "text": "Internet Hoaxes Email messages that promise a free gift certificate to your favorite restaurant, plead for financial help for a sick child, or warn of a new computer virus are typically hoaxes designed for you to forward them to everyone you know. Mass distribution of email messages floods computer networks with traffic slowing them down. This is a type of distributed denial-of-service (DDoS) attack. Combat Internet Hoaxes Do not forward chain letters, email spam, inappropriate messages, or unapproved newsletters and broadcast messages. This is a violation of the HHS-OCIO Policy for Personal Use of Information Technology Resources. Do not open emails from senders whom you do not recognize or if you are suspicious that the email could be a hoax. 44",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 44
+  },
+  {
+    "text": "Spam Email spam is unsolicited messages sent to numerous recipients, similar to junk mail. Spam is dangerous because it can contain links that direct you to phishing websites or install malware on your computer. Studies estimate that between 70% and 95% of emails sent are spam. Combat spam NEVER click on links or download attachments from spam email Only provide your email address for legitimate business purposes. Do not sign web site guest books and limit mailing list subscriptions. Spammers access these to obtain your email address. Spam received in your government email account should be forwarded to spam@hhs.gov or the security POC for your office. 45",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 45
+  },
+  {
+    "text": "What is Encryption? Encryption is the conversion of plaintext to ciphertext through the use of a cryptographic algorithm. It’s important to encrypt files containing PII. Please be sure to refer to your individual helpdesk for instructions on how to use encryption technology. Personal Identity Verification (PIV) and Public Key Infrastructure (PKI) cards are the first choice for encryption. Encryption Alternatives can be found by visiting: http://intranet.hhs.gov/it/cybersecurity/enterprise_se curity/Encryption/ 46",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 46
+  },
+  {
+    "text": "Appropriate Use of Email HHS email accounts are for official business. Personal email should NEVER be used to conduct official HHS government business. • Review the Rules of Behavior for Use of HHS Information Resources for more information. • Emails that contain sensitive data must be encrypted before being sent. Information on encryption solutions can be found at: http://intranet.hhs.gov/it/cybersecurity/enterprise_security/ Encryption/index.html Employees are permitted limited personal use of email. HHS email accounts must not be used to: • Create personal commercial accounts for the purpose of receiving personal notifications, set up a personal business or website, or to sign up for memberships. Personal emails should not: • Disrupt employee productivity, disrupt service or cause congestion on the network (e.g., sending spam or large media files), or to engage in inappropriate activities. 47",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 47
+  },
+  {
+    "text": "Peer-to-Peer Software Peer to peer, or P2P, is typically used to download copyrighted files lik e music. Downloading files in this manner is illegal, unethical and prohibited on government-owned computers and networks. Some P2P software may be necessary to meet a business need, in which case you may use it, but only with permission from the OpDiv CIO. Speak to your manager for more information. 48",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 48
+  },
+  {
+    "text": "Cookies A cookie is a text file that a website automatically puts on your hard driv e that saves information that you type in like preferences or user name. Use cookies with caution. Cookies can also be used to track your activities on the web. Cookies pose a security risk because someone could access your personal information or invade your privacy. Combat cookies Confirm that websites requesting personal information are encrypted and the URL begins with “https”. There is risk anytime you enter personal information on a website. Set your browser Internet Options, Privacy settings to notify you when a website requests to install a cookie. Periodically delete all Cookies and website data from your browser history. 49",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 49
+  },
+  {
+    "text": "ActiveX ActiveX is a form of mobile code technology that allows Internet browsers to run small appl ications online. Code has the capability to alter your operating system which can cause a software failure if the code is malicious. Protect your computer Require confirmation before enabling ActiveX or other types of mobile code technology. 50",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 50
+  },
+  {
+    "text": "Knowledge Check Complete this sentence: A phishing email… a) Is a type of social engineering attack b) Can be from an organization that you recognize, like a professional association. c) Contains a link to a web site that asks you for personal information. d) All of the above 51",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 51
+  },
+  {
+    "text": "Knowledge Check Answer Complete this sentence: A phishing email… a) Is a type of social engineering attack b) Can be from an organization that you recogniz like a professional association. c) Contains a link to a web site that asks you for personal information. d) All of the above e, Phishing is a type of social engineering. It often appears to be from an organization you know, and almost always has a link or an attachment. The correct answer is D! 52",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 52
+  },
+  {
+    "text": "LESSON 5: SECURITY OUTSIDE THE OFFICE 53",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 53
+  },
+  {
+    "text": "Security Outside the Office 54 Don’t be the Breach! Be vigilant about protecting HHS information and information systems when on travel or working at remote locations. Security researchers say that 68% of data breaches at U.S. healthcare companies are caused by employees losing, or the theft of, laptops or other mobile devices1. It is your responsibility to protect HHS technology and resources that are assigned to you when you are outside of the office. #DontBeTheBreach 1. 2014 Bitglass Healthcare Breach Report",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 54
+  },
+  {
+    "text": "Travel & Remote Location Tips Here are more important tips for protecting information systems while working outside the office! • Turn off your laptop while travelling so that encryption is enabled. • Always maintain possession of your laptop and other mobile devices. • Ensure that the wireless security features are properly configured by using only approved secure Virtual Private Network (VPN) ports. • Be cautious when establishing a VPN connection through a non-secure environment (e.g., hotel). Do not work on sensitive material when using an insecure connection. • Turn off/disable wireless capability when connected via Local Area Network (LAN) cable. • Report a loss or theft of your laptop or other government furnished device immediately to your security POC and Privacy representative. 55",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 55
+  },
+  {
+    "text": "Telework You must receive approval and satisfy HHS requirements for telework. For more information see the: – Rules of Behavior for Use of HHS Information Resources – HHS-OCIO Policy for Personal Use of Information Technology Resources – HHS Policy for Information Technology Security for Remote Access. Protect information and data while teleworking  Always maintain possession of your laptop to prevent loss or theft.  Only use authorized equipment in authorized locations.  Use a screen protector so sensitive information cannot be seen by others.  Report lost or stolen equipment immediately. 56",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 56
+  },
+  {
+    "text": "Protecting PII While Teleworking There are special responsibilities for protecting PII during telework: You must follow standard security procedures when removing official records from the office, and have permission from your manager to transport, transmit, remotely access or download sensitive or classified information during telework. 2 HHS encryption is critical. It’s extremely important to store sensitive information on authorized mobile devices or remote systems with appropriate safeguards.3 Remotely access sensitive information by using authorized methods (e.g., VPN). 2HHS Telecommuting Program Policy 3HHS-OCIO Policy for information Systems Security and Privacy (IS2P) 57",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 57
+  },
+  {
+    "text": "Home Security Safeguarding your computer at home is important! Ensure that you do the following: Use passwords on personal computers and mobile devices. Install and update antivirus software on your home computer. Enable the firewall on your computer. Routinely backup and encrypt your files. Follow the instructions in the user manual to enable encryption for your wireless router. Use encryption software to send encrypted sensitive and PII data on your home computer. Install and update the latest operating system (OS) security patches. 58",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 58
+  },
+  {
+    "text": "Knowledge Check 59 Which of the following must you do when travelling or teleworking? a. Lock up any files or documents containing PII b. Keep possession of your laptop at all times c. Turn off/disable wireless capability when connected via LAN cable d. Report the loss or theft of any government furnished device immediately to security and Privacy representatives e. All of the above",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 59
+  },
+  {
+    "text": "Knowledge Check Answer Which of the following must you do when travelling or teleworking? a. Lock up any files or documents containing PII b. Keep possession of your laptop at all times c. Turn off/disable wireless capability when connected via LAN cable d. Report the loss or theft of any government furnished device immediately to security and Privacy representatives e. All of the above You got it! You have to do all of these. The correct answer is E! 60",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 60
+  },
+  {
+    "text": "LESSON 6: PRIVACY 61",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 61
+  },
+  {
+    "text": "What is Privacy? Personal Privacy is the right to be free from physical intrusion to one’s personal space or solitude. It allows individuals a choice in how their personally identifiable information (PII) is used and disclosed. Information Privacy is a set of fair information practices that ensure personal information is accurate, relevant, and current. Additionally, Information Privacy promotes trust between HHS and the American public by: • Protecting individuals’ personal information, • Using personal information appropriately, and • Assuring that personal data is used and viewed only for business purposes. 62",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 62
+  },
+  {
+    "text": "1. These devices contain memory that can r Why is Privacy Important? As a member of the HHS workforce, each of us is responsible for protecting privacy. Privacy is important because it allows us to earn and keep public trust, prevent identity theft, prevent privacy incidents, and follow the law. Privacy policy and procedures require that we: • Collect, access, use, and disclose personal information only for reasons that are for a legitimate job function, support the mission of HHS, and are allowed by law. • Safeguard personal information in your possession, whether it be in paper or electronic format. • Properly dispose of documents containing PII. Shred papers; NEVER place them in the trash. • Contact the IT Department for proper disposal of equipment like copy machines, printers and computers1. • Report suspected privacy violations or incidents 2. 1. These devices contain memory that can retain PII long after you’ve used the device. 2. OMB Memorandum M-07-16, Safeguarding Against and Responding to the Breach of Personally Identifiable Information. etain PII long after you’ve used the device. 63",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 63
+  },
+  {
+    "text": "These devices contain memory that can retain PII long after you’ve used the device. 2. OMB Memorandum M-07-16, Safeguarding Against and Responding to the Breach of Personally Identifiable Information. etain PII long after you’ve used the device. 63",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 63
+  },
+  {
+    "text": "Consequences of Privacy Violations Privacy violations have several possible consequences, which inc lude: Employee discipline Fines Imprisonment 64",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 64
+  },
+  {
+    "text": "Fair Information Practice Principles HHS has long been a major force in establishing and meeting high standards for privacy. In 1973, HHS3 advanced the Code of Fair Information Practice which has served as a foundation for future federal privacy frameworks. Shown here is an example of one of the many frameworks developed to encompass and expand HHS’ early framework: 3 Formerly known as the Department of Health Education and Welfare (HEW) 65",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 65
+  },
+  {
+    "text": "What is PII? Personally Identifiable Information (PII) is any information about an individual maintained by an agency, including (1) any information that can be used to distinguish or trace an individual‘s identity, such as name, social security number, date and place of birth, mother‘s maiden name, or biometric records; and (2) any other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information. These are some examples of PII: • Name, • Social Security number (SSN ), • Date of birth (DOB ), • Mother’s maiden name, • Financial records, • Email address, • Driver’s license number, • Passport number, and • Personal Health information (PHI ). 66",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 66
+  },
+  {
+    "text": "Putting Privacy Into Action Everyday, HHS employees support these principles and the commitment they represent. Here are the first four principles in more detail. Framework Description Examples Authority and Purpose HHS publically documents the purpose for which the PII is collected at the time of the collection, how the PII will be used, and the authority that permits the collection of PII. • Privacy Act Statements • System of Records Notices in Federal Register Accountability, Audit, and Risk Management Individuals have a clear understanding of their responsibilities for handling PII. Systems owners and program managers understanding are accountable for understanding the risks and responsibilities of handling PII in their systems and programs and report these appropriately. • Privacy Impact Assessments • Privacy training and awareness Data Quality and Integrity HHS uses PII that is accurate, relevant, timely and complete for the purposes for which it is to be used. • PII updates records and seeks clarification from individuals (as needed). Data Minimization and Retention HHS collects PII that is directly relevant and necessary to accomplish the specified purpose(s) and that",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 67
+  },
+  {
+    "text": "the purposes for which it is to be used. • PII updates records and seeks clarification from individuals (as needed). Data Minimization and Retention HHS collects PII that is directly relevant and necessary to accomplish the specified purpose(s) and that PII should only be retained for as long as necessary to fulfill the specified purpose(s) and in accordance with the National Archives and Records Administration (NARA) approved record retention schedule. • Collecting minimum data on forms • Redacting records • Truncating data elements • Records are maintained and destroyed per NARA guidance",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 67
+  },
+  {
+    "text": "Putting Privacy Into Action (continued) Everyday, HHS employees support these principles and the commitment they represent. Here are the last four principles in more detail Framework Description Examples Individual Participation and Redress Individuals provide HHS with consent for the collection, use, dissemination, and the maintenance of PII and HHS has appropriate mechanisms for access, correction, and redress regarding the use of their PII. • Individuals can request to review information about them maintained in a System of Record • Individuals can request that errors be corrected (redress) Security HHS protects PII, in all formats, through administrative, technical, and physical security safeguards with guard against risks such as loss, unauthorized access or use, destruction, modification, or unintended or inappropriate disclosure. • Encryption • Shredding • User Names and passwords • Locks Transparency HHS provides a notice to individuals regarding the collection, use, dissemination, and maintenance of PII. • Privacy Act Statements • Privacy policy on websites • System of Records Notices in Federal Register Use Limitation HHS uses PII for the purpose(s) specified in the public notice and data should not",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 68
+  },
+  {
+    "text": "use, dissemination, and maintenance of PII. • Privacy Act Statements • Privacy policy on websites • System of Records Notices in Federal Register Use Limitation HHS uses PII for the purpose(s) specified in the public notice and data should not be disclosed, made available or otherwise used for purposes other than those compatible with the purpose(s) for with the information was collected except with the consent of the data subject; or by the authority of law. • PII collected for determination of benefits is not used for marketing",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 68
+  },
+  {
+    "text": "PII Considerations for the Information Life Cycle The HHS Information Life Cycle defines how to handle and encrypt data from inception to disposition. Protecting PII is required during each stage of the cycle: • Data Collection or Creation: Gathering PII for use. • Data Storage: Maintaining or storing PII. When safeguarding sensitive information, back up all stored or transmitted information, encrypt them, and file/archive the encrypted backup information. • Data Usage: Using PII to accomplish a job function. • Data Sharing: Disclosing or transferring PII. • Disposition: Disposing of PII in accordance with record management requirements and organizational disposal policies. 69",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 69
+  },
+  {
+    "text": "Life Cycle (cont’d) PII Considerations for the Information 70 Were the appropriate encryption safeguards put in place prior to sharing? Did you send PII to only secure email addresses? Did you verify that the sharing is allowed? Have you verified that everyone receiving the PII has a need to know? Did you share only the minimum amount of PII and follow disclosure procedures? Is the PII part of a record that falls under the records retention schedule? Did you shred all papers containing PII? Did you give back unused equipment (e.g. computer, copiers, fax machines) to the IT Department for proper disposal? Are you allowed to collect the PII by law? Do you have a legitimate business need to collect the PII? Are you obtaining it in a safe manner so that it cannot be overheard or seen by others? Did you only request the minimum amount of PII to get the job done? Will you use the PII for the purpose it was provided? Are you only using the minimum amount of PII to get the job done? Are",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 70
+  },
+  {
+    "text": "Did you only request the minimum amount of PII to get the job done? Will you use the PII for the purpose it was provided? Are you only using the minimum amount of PII to get the job done? Are you accessing PII through secure and authorized equipment or connections? Did you follow proper encryption security procedures to secure the stored PII? Did you secure documents and files that contain PII? Are you storing PII on only authorized portable electronic devices (i.e., work equipment)?",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 70
+  },
+  {
+    "text": "Protecting PII While in Transit You must protect PII during transit. Please remember: • To encrypt emails that contain PII. All HHS information systems that store or process sensitive information must protect the confidentiality and integrity of data at rest and data in transit by employing cryptographic mechanisms in accordance with HHS policies. • DO NOT forward work emails with PII to personal accounts (e.g., Yahoo, Gmail). Keep work and personal emails separate! • To avoid interaction with unauthorized websites when PII is involved (e.g. Wikis). • All HHS sensitive information must be secured with FIPS 140-2 encryption solution while in transit. • Users should report all suspected computer security incidents to their local Operating Division (OpDiv) Computer Security (CSIRT)/ Incident Response Team (IRT) or Help Desk. 71",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 71
+  },
+  {
+    "text": "Protecting PII At Your Workstation Maintain a clean work environment. • Don’t leave documents that contain PII on your printer or at printer stations. • Don’t leave files or documents containing PII unsecured on your desk when you are not there. • Check your workstation before you leave at the end of the day. • Lock your laptop or desktop (ctl+alt+del) 72",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 72
+  },
+  {
+    "text": "Protecting PII When Faxing Sending faxes: • Verify recipient’s fax number prior to sending PII. • Make sure someone authorized to receive the PII is there to receive the fax. • Use a fax transmittal sheet. • Don’t leave PII on fax machines after faxing. Receiving faxes: • Quickly retrieve faxes transmitted to you. • Secure faxes that have not been retrieved. • If you are expecting a fax and have not received it, follow-up to ensure the sender has the correct fax number. 73",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 73
+  },
+  {
+    "text": "Protecting PII When Mailing Interoffice mail: • Send in a confidential envelope. • Follow-up to verify that the recipient received the information. Postal mail (“snail mail”): • When possible, use a traceable delivery service (like UPS). • Package in an opaque envelope or container. Email: • Double-check the recipient’s address before sending. • Encrypt email. • Digitally sign email. 74",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 74
+  },
+  {
+    "text": "Protecting PII with Encryption Always encrypt internal and external emails that contain PII. • Personal identity verification (PIV) and public key infrastructure (PKI) cards are the first choice for encryption. • When that is not possible, visit http://intranet.hhs.gov/it/cybersecurity/ente rprise_security/Encryption/ for encryption alternatives. Encrypt files containing PII. • Do not send the password via encrypted email. • Provide the password either in person, over the phone or by text message. • Be sure to refer to your individual helpdesk for instructions on how to use encryption technology. 75",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 75
+  },
+  {
+    "text": "SSN Protections Employees who handle SSNs need to take extra precautions. Misuse of SSNs can put individuals at risk for identity theft. Employees should: • Use the SSN only when it is required. • Truncate or mask the SSN in systems or on paper printouts whenever possible. • Disclose SSNs only to those that have a need to know and are authorized to receive the information. • Lock up and put away documents containing SSNs so they are not left out when away from your desk. • Identify and implement ways to eliminate the use of SSNs, when possible (e.g., removal from forms, assigning a randomly generated identifier). 76",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 76
+  },
+  {
+    "text": "Disposition Tips for disposing of PII when it’s no longer needed: • Review records retention requirements prior to destroying information. • Shred papers containing PII. • Dispose of electronic devices by returning to the IT Department. 77",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 77
+  },
+  {
+    "text": "Knowledge Check When emailing a file that contains PII which of the following should you do? a. Only send information to email addresses certified to receive top secret documents b. Hide your computer screen from anyone that may be watching you c. Only email from home so no one can see what you are sending d. Make sure that you’ve securely encrypted the email and have verified that everyone receiving the email has a need to know 78",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 78
+  },
+  {
+    "text": "Knowledge Check Answer When emailing a file that contains PII which of the following should you do? a. Only send information to email addresses certifi receive top secret documents. b. Hide your computer screen from anyone that m watching you. c. Only email from home so no one can see what are sending. d. Make sure that you’ve securely encrypted th email and verified that everyone receiving th you e e email has a need to know. ed to ay be Only verified recipients should receive the email with the PII. Email should be encrypted and only sent to secure (not personal) email addresses. The correct answer is D! 79",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 79
+  },
+  {
+    "text": "Privacy Points of Contact For specific privacy-related questions, contact: • OPDIV Senior Official for Privacy (SOP) http://intranet.hhs.gov/it/cybersecurity/privacy/index.html • Privacy Act Contacts http://www.hhs.gov/foia/contacts/index.html#privacy To learn more: • Visit the HHS Cybersecurity Privacy page http://intranet.hhs.gov/it/cybersecurity/privacy/index.html for more information on protecting PII and incident response. • Visit the HHS Cybersecurity Privacy Resource Center http://intranet.hhs.gov/it/cybersecurity/privacy/prc/index.html for tips on how to protect PII at work and at home. 80",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 80
+  },
+  {
+    "text": "LESSON 7: INSIDER THREAT 81",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 81
+  },
+  {
+    "text": "Definition of an Insider Threat What is an insider threat? A malicious insider threat is a current or former employee, contractor, or other business partner who has or had authorized access to an organization’s network, system, or data and intentionally misused that access in a manner that negatively impacts the confidentiality, integrity, or availability of the information or information system. This threat can include damage to the United States through espionage, terrorism, unauthorized disclosure of national security information, or through the loss or degradation of Departmental resources or capabilities (source: U.S. Computer Emergency Readiness Team (CERT)). 82",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 82
+  },
+  {
+    "text": "Why is HHS a Target? HHS is a multi-disciplined, geographically-distributed public health enterprise whose missions include research, innovation, regulation, prevention, and response. HHS has information of interest to foreign intelligence agents or organizations, and insider threats including: • U.S. and global public health policies and positions, • Medical countermeasure research, development, and acquisition information, • Senior expertise in exotic, infectious, and pandemic diseases, • Information about innovative life science research data and best practices, • State- of-the-art high-containment laboratories, • The U.S. repository of proprietary food and drug- related information, and • Public health and medical preparedness and response operations. 83",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 83
+  },
+  {
+    "text": "Threat Indicators Although no single indicator provides conclusive proof or evidence that an individual is an insider threat, some suspicious behaviors could include: • Unreported contact with foreign nationals outside the scope of official business, • Disclosed or removed sensitive, proprietary, or classified information without approval, • Unexplained reproduction or transmission of classified or sensitive information, • Attempted access to classified or sensitive information beyond scope of duties, • Expressed support or action for international terrorist organizations or objectives, • Expressed hatred of American society, culture, government, or principles of the U.S. Constitution, • Contributed financially to a foreign charity, institutions, or individuals associated with terrorism, and • Difficult life circumstances: alcohol, drugs, divorce, etc. 84",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 84
+  },
+  {
+    "text": "Be Aware The most important tip is to be aware of what is going on around you with your coworkers. If you notice a coworker who is: • Having financial difficulties, • Alcohol, drug, or mental health issues and not seeking treatment, • Appearing to live beyond their means, or • Aggressively trying to get access to information systems and data that they have no “need to know”. Let someone know. Report the incident to: Counterintelligence Directorate at awareness@hhs.gov 85",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 85
+  },
+  {
+    "text": "LESSON 8: INCIDENT REPORTING 86",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 86
+  },
+  {
+    "text": "Causes of Data & Privacy Incidents If any of the following privacy and/or data incidents happen to you, please report it! • Loss, damage, theft, or improper disposal of equipment, media, or papers containing PII. • Accidentally sending PII in any form to a person not authorized to view the report or sending it unencrypted. • Allowing an unauthorized person to use your computer or credentials to access PII. • Discussing work related information, such as a person’s medical records, in a public area. • Accessing the private records of friends, neighbors, celebrities, etc. for casual viewing. • Any security situation that could compromise PII (e.g., virus, phishing email, social engineering attack). 87",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 87
+  },
+  {
+    "text": "Consequences of Data & Privacy Incidents Privacy and data incidents can result in: • Inability for HHS to fulfill its mission, and • Disruption of day-to-day operations. Additionally, loss of privacy threatens people and HHS. It can result in: • Exploitation of an individual’s health or financial status, • Embarrassment or harm to individuals, • Damage to the reputation of HHS, and • Loss of trust between HHS and the public. 88",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 88
+  },
+  {
+    "text": "How To Report Within HHS, users should report all suspected computer security incidents to their local Operating Division (OpDiv) Computer Security (CSIRT)/ Incident Response Team (IRT) or Help Desk http:// intranet.hhs.gov/it/cybersecurity /docs/policies_guides/OCIO/pol-pers- use-it-rsrc.pdf Contact information for each OpDiv can be found at: http://intranet.hhs.gov/it/cybersecurity /hhs_csirc/ Please see the chart below for each OPDIV CSIRT contact. OpDiv Email ITO Hhsitio-irt@hhs.gov AHRQ csirt@ahrq.hhs.gov ACF Gary.cochran@acf.hhs.gov ACL csirt@acl.hhs.gov SAMHSA infosecurity@samhsa.hhs.gov CMS soc@cms.hhs.gov FDA csirt@fda.hhs.gov CDC/ATSDR csirt@cdc.gov IHS irt@ihs.gov NIH csirt@nih.hhs.gov OIG csirt@oig.hhs.gov HRSA csirt@hrsa.hhs.gov 89",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 89
+  },
+  {
+    "text": "Reporting Incidents Tips 90 Important tips on reporting data and privacy incidents: • Do not investigate the incident on your own - immediately report suspected incidents, especially those that could compromise PII, regardless of whether it’s in electronic, paper, or oral format. • Any employee can report an incident. You are not required to speak to your manager before reporting an incident but should keep management informed when incidents occur. • Agencies that share information on terrorism or counterintelligence are participating in what is known as the Information Sharing Environment (ISE). Prior to sharing information via the ISE, be sure you are aware of its specific privacy requirements. For questions about the ISE, contact the HHS Office of Security and Strategic Information (OSSI).",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 90
+  },
+  {
+    "text": "Reporting Insider Threats Insider threats are a special type of incident. Report these incidents to the OSSI: Counterintelligence Directorate at awareness@hhs.gov 91",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 91
+  },
+  {
+    "text": "Knowledge Check Which of the following should you report? a. Theft of your Department-issued Blackberry b. A coworker breaking into a file cabinet that’s not theirs c. Loss of some important documents containing research subject’s SSNs d. Inadvertently clicking on a link in a Phishing email e. All of the above 92",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 92
+  },
+  {
+    "text": "Knowledge Check Answer Which of the following should you report? a. Theft of your Department-issued Blackberry b. A coworker breaking into a file cabinet that’s not theirs c. Loss of some important documents containing research subject’s SSNs d. Inadvertently clicking on a link in a Phishing email e. All of the above All of these examples are reportable incidents. The correct answer is E! 93",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 93
+  },
+  {
+    "text": "SUMMARY: 94",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 94
+  },
+  {
+    "text": "Review of Objectives In this course, you have learned to: • Define information systems security; • Locate federal regulations that mandate the protection of IT assets and information; • Describe HHS’ IT security and privacy policies, procedures, and practices; • Define sensitive data; • Describe your personal responsibility to protect information systems and privacy, and the consequences for violations; • Recognize threats to information systems and privacy; • Define encryption and determine how and when to encrypt; • Perform HSS best practices to secure IT assets and data at the office or at home; • Define privacy and personally identifiable information (PII); • Define encryption and determine how and when to encrypt; • Protect PII in different contexts and formats; • Identify the traits that may indicate an insider threat; and • Report a suspected or confirmed security or privacy incident to the proper authorities. 95",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 95
+  },
+  {
+    "text": "incident to the proper authorities. 95",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 95
+  },
+  {
+    "text": "COURSE QUIZ: 96",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 96
+  },
+  {
+    "text": "Quiz Question 1 of 10 Read the following statement and determine if it’s True or False: The goal of information security is to protect confidentiality, availability, and integrity. a. True b. False 97",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 97
+  },
+  {
+    "text": "Quiz Question 1 of 10 Answer True, the goal of information security is to protect confidentiality, availability, and integrity. Read the following statement and determine if it’s True or False: The goal of information security is to protect confidentiality, availability, and integrity. a. True b. False 98",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 98
+  },
+  {
+    "text": "Quiz Question 2 of 10 Who sets programmatic direction by providing an enterprise-wide perspective, facilitating coordination among key stakeholders, setting standards and providing guidance for the protection of information and information systems? a. The Department (HHS) b. Each OpDiv c. Individual offices d. Individual Information Systems Security Officers (ISSOs) 99",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 99
+  },
+  {
+    "text": "Quiz Question 2 of 10 Answer Who sets programmatic direction by providing an enterprise-wide perspective, facilitating coordination among key stakeholders, setting standards and providing guidance for the protection of information and information systems? a. The Department (HHS) b. Each OpDiv c. Individual offices d. Individual Information Systems Security Officers (ISSOs) The Department of Health and Human Services sets programmatic direction at the enterprise level. 100",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 100
+  },
+  {
+    "text": "Quiz Question 3 of 10 Which of the following represents a strong password? a. JohnnyAppleseed b. Wanda434 c. rdCamero$$ d. TGiF23$a4Vs@87 101",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 101
+  },
+  {
+    "text": "Quiz Question 3 of 10 Answer Which of the following represents a strong password? a. JohnnyAppleseed b. Wanda434 c. rdCamero$$ d. TGiF23$a4Vs@87 Answer “d” uses a combination of upper case and lower case letters, numbers, and special characters. It’s also longer than 8 characters and not easy to guess. 102",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 102
+  },
+  {
+    "text": "Quiz Question 4 of 10 With regard to your PIV card you, or your federal supervisor or organization should notify your badging office immediately if which of the following occurs? a. You leave the employ of HHS b. You lose your PIV card c. Any of your personal information has changed d. Any of the above 103",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 103
+  },
+  {
+    "text": "Quiz Question 4 of 10 Answer With regard to your PIV card you, or your federal supervisor or organization should notify your badgi ng office immediately if which of the following occurs? a. You leave the employ of HHS b. You lose your PIV card c. Any of your personal information has changed d. An y of the above Notify your badging office if any of these situations occur. 104",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 104
+  },
+  {
+    "text": "Quiz Question 5 of 10 An email might be a phishing email if… a. It contains a lot of spelling and grammar errors b. It appears to come from a legitimate organization, but not one you do business with online c. Asks you to click on a link and provide personal information d. Any of the above 105",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 105
+  },
+  {
+    "text": "Quiz Question 5 of 10 Answer An email might be a phishing email if… a. It contains a lot of spelling and grammar errors b. It appears to come from a legitimate organization, but not one you do business with online c. Asks you to click on a link and provide personal information d. Any of the above All of these indicators might be present in a phishing email. In general be aware of links or attachments in any email from anyone you were not expecting the request. 106",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 106
+  },
+  {
+    "text": "Quiz Question 6 of 10 Read the following statement and determine if it’s True or False: Personal email accounts should NEVER be used to conduct official HHS government business. a. True b. False 107",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 107
+  },
+  {
+    "text": "Quiz Question 6 of 10 Answer Read the following statement and determine if it’s True or False: Personal email accounts should NEVER be used to conduct official HHS government business. a. True b. False True, you should NEVER use your personal email accounts to conduct official HHS government business. 108",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 108
+  },
+  {
+    "text": "Quiz Question 7 of 10 The number one cause of data breaches at U.S. healthcare companies is: a. Hackers finding a back-door into a system b. An intruder tailgating through a secure door c. An employee losing a laptop or Blackberry device d. Employees discussing PII in elevators 109",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 109
+  },
+  {
+    "text": "Quiz Question 7 of 10 Answer The number one cause of data breaches at U.S. healthcare companies is: a. Hackers finding a back-door into a system b. An intruder tailgating through a secure door c. An employee losing a laptop or Blackberry device d. Employees discussing PII in elevators One study estimates that 68% of all data breaches are caused by employees losing equipment or data. Keep your laptop and other devices with you at all times. 110",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 110
+  },
+  {
+    "text": "Quiz Question 8 of 10 Protect information and data while teleworking by… a. Only leaving your laptop with someone you work with b. Reporting lost or stolen equipment immediately c. Only using free Wi-Fi hotspots in hotel rooms and public area d. Only using your personal laptop when teleworking 111",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 111
+  },
+  {
+    "text": "Quiz Question 8 of 10 Answer Protect information and data while teleworking by… a. Only leaving your laptop with someone you work with b. Reporting lost or stolen equipment immediately c. Only using free Wi-Fi hotspots in hotel rooms and public area d. Only using your personal laptop when teleworking Always report the loss or theft of a device immediately. 112",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 112
+  },
+  {
+    "text": "Quiz Question 9 of 10 HHS protecting PII, in all formats, using administrative, technical, and physical security safeguards, is a description of which of the eight Privacy Framework Principles? a. Security b. Data Minimization and Retention c. Data Quality and Integrity d. Transparency 113",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 113
+  },
+  {
+    "text": "Quiz Question 9 of 10 Answer HHS protecting PII, in all formats, using administrative, technical, and physical security safeguards, is a description of which of the eight Privacy Framework Principles? a. Security b. Data Minimization and Retention c. Data Quality and Integrity d. Transparency Protecting PII through the use of these controls best describes the Privacy Framework Principle #6: Security. 114",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 114
+  },
+  {
+    "text": "Quiz Question 10 of 10 An insider threat may: a. Disclose or remove sensitive information without approval b. Reproduce classified or sensitive information for no apparent reason c. Express hatred of American society or government d. Any of the above 115",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 115
+  },
+  {
+    "text": "Quiz Question 10 of 10 Answer An insider threat may: a. Disclose or remove sensitive information without approval b. Reproduce classified or sensitive information for no apparent reason c. Express hatred of American society or government d. Any of the above Insider threats may display any of these behaviors. They may also act disgruntled or angry quite often during the day. 116",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 116
+  },
+  {
+    "text": "Congratulations You have completed the Cybersecurity Awareness Course! Click Next to read and acknowledge the HHS Rules of Behavior For Use of HHS Information Resources. 117",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 117
+  },
+  {
+    "text": "HHS Rules of Behavior Rules of Behavior for Use of HHS Information Resources Office of the Chief Information Officer Office of the Assistant Secretary for Administration Department of Health and Human Services July 24, 2013 This Department of Health and Human Services (HHS or Department) standard is effective immediately: The Rules of Behavior for Use of HHS Information Resources (HHS RoB) provides the rules that govern the appropriate use of all HHS information resources for Department users, including federal employees, contractors, and other system users. The HHS RoB, in conjunction with the HHS Policy for Personal Use of Information Technology Resources[1] (as amended), are issued under the authority of the Policy for Information Systems Security and Privacy (IS2P).[2] The prior HHS RoB (dated August 26, 2010) is made obsolete by the publication of this updated version. All new users of HHS information resources must read the HHS RoB and sign the accompanying acknowledgement form before accessing Department data or other information, systems, and/or networks. This acknowledgement must be completed annually thereafter, which may be done as part of annual HHS",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 118
+  },
+  {
+    "text": "HHS information resources must read the HHS RoB and sign the accompanying acknowledgement form before accessing Department data or other information, systems, and/or networks. This acknowledgement must be completed annually thereafter, which may be done as part of annual HHS Information Systems Security Awareness Training. By signing the form users reaffirm their knowledge of, and agreement to adhere to, the HHS RoB. The HHS RoB may be presented to the user in hardcopy or electronically. The user’s acknowledgement may be obtained by written signature or, if allowed per Operating Division (OpDiv) or Staff Division (StaffDiv) policy and/or procedure, by electronic acknowledgement or signature. 1 Available at: http://www.hhs.gov/ocio/policy/index.html 2 Available at: http://www.hhs.gov/ocio/policy/index.html 118",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 118
+  },
+  {
+    "text": "HHS Rules of Behavior 2 The HHS RoB cannot account for every possible situation. Therefore, where the HHS RoB does not provide explicit guidance, personnel must use their best judgment to apply the principles set forth in the standards for ethical conduct to guide their actions. Non-compliance with the HHS RoB may be cause for disciplinary actions. Depending on the severity of the violation and management discretion, consequences may include one or more of the following actions:3 • Suspension of access privileges; • Revocation of access to federal information, information systems, and/or facilities; • Reprimand; • Termination of employment; • Removal or disbarment from work on federal contracts or projects; • Monetary fines; and/or • Criminal charges that may result in imprisonment. HHS OpDivs may require users to acknowledge and comply with OpDiv-level policies and requirements, which may be more restrictive than the rules prescribed herein. Supplemental rules of behavior may be created for specific systems that require users to comply with rules beyond those contained in this document. In such cases users must also sign these supplemental rules of",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 119
+  },
+  {
+    "text": "restrictive than the rules prescribed herein. Supplemental rules of behavior may be created for specific systems that require users to comply with rules beyond those contained in this document. In such cases users must also sign these supplemental rules of behavior prior to receiving access to these systems 4 and must comply with ongoing requirements of each individual system to retain access (such as re-acknowledging the system-specific rules by signature each year). System owners must document any additional system-specific rules of behavior and any recurring requirement to sign the respective acknowledgement in the security plan for their systems. Each OpDiv Chief Information Officer (CIO) must implement a process to obtain and retain the signed rules of behavior for such systems and must ensure that user access to such system information is prohibited without a signed. 3 Refer to the Employee Standards of Conduct published by the U.S. Office of Government Ethics, available at: https://www2.oge.gov/web/oge.nsf/Employee%20Standards%20of%20Conduct 4 National Institute of Standards and Technology (NIST) Publication (SP) 800-53, Revision 4, Security and Privacy Controls for Federal Information Systems and Organizations, defines an “information",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 119
+  },
+  {
+    "text": "Standards of Conduct published by the U.S. Office of Government Ethics, available at: https://www2.oge.gov/web/oge.nsf/Employee%20Standards%20of%20Conduct 4 National Institute of Standards and Technology (NIST) Publication (SP) 800-53, Revision 4, Security and Privacy Controls for Federal Information Systems and Organizations, defines an “information system” as: “A discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information.” 119",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 119
+  },
+  {
+    "text": "HHS Rules of Behavior 3 acknowledgement of system-specific rules and a signed acknowledgement of the HHS RoB. National security systems, as defined by the Federal Information Security Management Act (FISMA), must independently or collectively implement their own system-specific rules. These HHS RoB apply to local, network, and remote use5 of HHS information (in both electronic and physical forms) and information systems by any individual. Users of HHS information and systems must acknowledge the following statements: I assert my understanding that: • Use of HHS information and systems must comply with Department and OpDiv policies, standards, and applicable laws; • Use for other than official assigned duties is subject to the HHS Policy for Personal Use of IT Resources, (as amended);6 • Unauthorized access to information or information systems is prohibited; and • Users must prevent unauthorized disclosure or modification of sensitive information.7 5 Refer to the glossary of National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, Revision 4, Security and Privacy Controls for Federal Information Systems and Organizations for definitions of local, network, and remote access. 6",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 120
+  },
+  {
+    "text": "sensitive information.7 5 Refer to the glossary of National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, Revision 4, Security and Privacy Controls for Federal Information Systems and Organizations for definitions of local, network, and remote access. 6 Available at: http://www.hhs.gov/ocio/policy/index.html . 7 HHS Memorandum: Updated Departmental Standard for the Definition of Sensitive Information (as amended) is available at: http://intranet.hhs.gov/it/cybersecurity/policies/index.html. 120",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 120
+  },
+  {
+    "text": "I must: HHS Rules of Behavior 4 General Security Practices • Follow HHS security practices whether working at my primary workplace or remotely; • Accept that I will be held accountable for my actions while accessing and using HHS information and information systems; • Ensure that I have appropriate authorization to install and use software, including downloaded software on HHS systems and that before doing so I will ensure that all such software is properly licensed, approved, and free of malicious code; • Wear an identification badge (or badges, if applicable) at all times, except when they are being used for system access in federal facilities; • Lock workstations and remove Personal Identity Verification (PIV) cards from systems when leaving them unattended; • Use assigned unique identification and authentication mechanisms, including PIV cards, to access HHS systems and facilities; • Complete security awareness training (i.e., HHS Information Systems Security Awareness Training) before accessing any HHS system and on an annual basis thereafter and complete any specialized role-based security or privacy training, as required by HHS policies;8 • Permit only authorized",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 121
+  },
+  {
+    "text": "Complete security awareness training (i.e., HHS Information Systems Security Awareness Training) before accessing any HHS system and on an annual basis thereafter and complete any specialized role-based security or privacy training, as required by HHS policies;8 • Permit only authorized HHS users to use HHS equipment and/or software; • Take all necessary precautions to protect HHS information assets9 (including but not limited to hardware, software, personally identifiable information (PII), protected health information (PHI), and federal records [media neutral]) from unauthorized access, use, modification, destruction, theft, disclosure, loss, damage, or abuse, and treat such assets in accordance with any information handling policies; 8 HHS Memorandum: Role-Based Training (RBT) of Personnel with Significant Security Responsibilities (available at: http://intranet.hhs.gov/it/cybersecurity/policies/index.html ) defines the types of positions requiring specialized training. 9 HHS IT assets are defined as hardware, software, systems, services, and related technology assets used to execute work on behalf of HHS. Definition is adapted from National Institute of Standards and Technology (NIST) Special Publication (SP) 800-30, Revision 1, Guide for Conducting Risk Assessments. 121",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 121
+  },
+  {
+    "text": "used to execute work on behalf of HHS. Definition is adapted from National Institute of Standards and Technology (NIST) Special Publication (SP) 800-30, Revision 1, Guide for Conducting Risk Assessments. 121",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 121
+  },
+  {
+    "text": "• Immediately report to the appropriate incident response organization or help desk (pursuant to OpDiv policy and/or procedures) all lost or stolen HHS equipment; known or suspected security incidents;10 known or suspected information security policy violations or compromises; or suspicious activity in accordance with OpDiv procedures; • Notify my OpDiv/StaffDiv Personnel Security Representative (PSR) when I plan to bring government-owned equipment on foreign travel (per requirements defined by the Office of Security and Strategic Information (OSSI));11 • Maintain awareness of risks involved with clicking on e-mail or text message web links; and • Only use approved methods for accessing HHS information and HHS information systems. Privacy • Understand and consent to having no expectation of privacy while accessing HHS computers, networks, or e-mail; • Collect information from members of the public only as required by my assigned duties and permitted by the Privacy Act of 1974, the Paperwork Reduction Act, and other relevant laws; • Release information to members of the public including individuals or the media only as allowed by the scope of my duties and the law; •",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 122
+  },
+  {
+    "text": "by the Privacy Act of 1974, the Paperwork Reduction Act, and other relevant laws; • Release information to members of the public including individuals or the media only as allowed by the scope of my duties and the law; • Refrain from accessing information about individuals unless specifically authorized and required as part of my assigned duties; • Use PII and PHI only for the purposes for which it was collected and consistent with conditions set forth by stated privacy notices such as those provided to individuals at the point of data collection and published System of Records Notices; and • Ensure the accuracy, relevance, timeliness, and completeness of PII, as is reasonably necessary and to the extent possible, to assure fairness in making determinations about an individual. 10 Known or suspected security incidents involve the actual or potential loss of control or compromise, whether intentional or unintentional, of authenticator, password, or sensitive information maintained by or in the possession of HHS or information processed by contractors and third-parties on behalf of HHS. 11 OSSI policies for foreign travel can",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 122
+  },
+  {
+    "text": "of control or compromise, whether intentional or unintentional, of authenticator, password, or sensitive information maintained by or in the possession of HHS or information processed by contractors and third-parties on behalf of HHS. 11 OSSI policies for foreign travel can be found at: http://intranet.hhs.gov/training/foreign-travel-security-awareness/index.html HHS Rules of Behavior 5 122",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 122
+  },
+  {
+    "text": "Sensitive Information • Treat computer, network and web application account credentials as private sensitive information and refrain from sharing accounts; • Secure sensitive information, regardless of media or format, when left unattended; • Keep sensitive information out of sight when visitors are present; • Sanitize or destroy electronic media and papers that contain sensitive data when no longer needed, in accordance with the HHS Policy for Records Management12 and sanitization policies, or as otherwise lawfully directed by management; • Access sensitive information only when necessary to perform job functions; and • Properly protect (e.g., encrypt) HHS sensitive information at all times while stored or in transmission, in accordance with the ic .13 HHS S tandard for Encryption of Computing Dev es I must not: • Violate, direct, or encourage others to violate HHS policies or procedures; • Circumvent security safeguards, including violating security policies or procedures or reconfiguring systems, except as authorized; • Use another person’s account, identity, password/passcode/PIN, or PIV card or share my password/passcode/PIN; • Remove data or equipment from the agency premises without proper authorization; • Use",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 123
+  },
+  {
+    "text": "including violating security policies or procedures or reconfiguring systems, except as authorized; • Use another person’s account, identity, password/passcode/PIN, or PIV card or share my password/passcode/PIN; • Remove data or equipment from the agency premises without proper authorization; • Use HHS information, systems, and hardware to send or post threatening, harassing, intimidating, or abusive material about others in public or private messages or forums; • Exceed authorized access to sensitive information; • Share or disclose sensitive information except as authorized and with formal agreements that ensure third-parties will adequately protect it; 12 Available at: http://www.hhs.gov/ocio/policy/index.html 13 Available at: http://intranet.hhs.gov/it/cybersecurity/policies/index.html HHS Rules of Behavior 6 123",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 123
+  },
+  {
+    "text": "HHS Rules of Behavior 7 124 • Transport, transmit, e-mail, remotely access, or download sensitive information unless such action is explicitly permitted by the manager or owner of such information and appropriate safeguards are in place per HHS policies concerning sensitive information; • Use sensitive information for anything other than the purpose for which it has been authorized; • Access information for unauthorized purposes; • Use sensitive HHS data for private gain or to misrepresent myself or HHS or for any other unauthorized purpose; • Store sensitive information in public folders or other insecure physical or electronic storage locations; • Knowingly or willingly conceal, remove, mutilate, obliterate, falsify, or destroy information; • Copy or distribute intellectual property including music, software, documentation, and other copyrighted materials without written permission or license from the copyright owner; • Modify or install software without prior proper approval per OpDiv procedures; • Conduct official government business or transmit/store sensitive HHS information using non-authorized equipment or services; or • Use systems (either government issued or non-government) without the following protections in place to access sensitive HHS",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 124
+  },
+  {
+    "text": "prior proper approval per OpDiv procedures; • Conduct official government business or transmit/store sensitive HHS information using non-authorized equipment or services; or • Use systems (either government issued or non-government) without the following protections in place to access sensitive HHS information: • Antivirus software with the latest updates; • Anti-spyware and personal firewalls; • A time-out function that requires re-authentication after no more than 30 minutes of inactivity on remote access; and • Approved encryption 14 to protect sensitive information stored on recordable media, including laptops, USB drives, and external disks; or transmitted or downloaded via e-mail or remote connections. 14 Refer to the HHS Standard for Encryption of Computing Devices, available at: http://intranet.hhs.gov/it/cybersecurity/policies/index.html.",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 124
+  },
+  {
+    "text": "I must refrain from the following activities when using federal government systems, which are prohibited per the HHS Policy for Personal Use of Information Technology Resources,15 (as amended): • Unethical or illegal conduct; • Sending or posting obscene or offensive material; • Sending or forwarding chain letters, e-mail spam, inappropriate messages, or unapproved newsletters and broadcast messages; • Sending messages supporting prohibited partisan political activity as restricted under the Hatch Act;16 • Conducting any commercial or for-profit activity; • Using peer- to-peer (P2P) software except for secure tools approved in writing by the OpDiv CIO (or designee) to meet business or operational needs; • Sending, retrieving, viewing, displaying, or printing sexually explicit, suggestive text or images, or other offensive material; • Creating and/or operating unapproved Web sites or services; • Allowing personal use of HHS resources to adversely affect HHS systems, services, and co-workers (such as using non- trivial amounts of storage space or bandwidth for personal digital photos, music, or video); • Using the Internet or HHS workstation to play games or gamble; and • Posting Department information to",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 125
+  },
+  {
+    "text": "systems, services, and co-workers (such as using non- trivial amounts of storage space or bandwidth for personal digital photos, music, or video); • Using the Internet or HHS workstation to play games or gamble; and • Posting Department information to external newsgroups, social media and/other types of third-party website applications,17 or other public forums without authority, including information which is at odds with departmental missions or positions. This includes any use that could create the perception that the communication was made in my official capacity as a federal government employee, unless I have previously obtained appropriate Department approval. 15 Available at : http://www.hhs.gov/ocio/policy/index.html. 16 For additional guidance refer to https://osc.gov/Pages/HatchAct.aspx and 5 C.F.R. Part 2635: Standards of ethical conduct for employees of the executive branch. 17 Refer to the HHS Policy for Managing the Use of Third-Party Websites and Applications, available at http://www.hhs.gov/ocio/policy/index.html. HHS Rules of Behavior 8 125",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 125
+  },
+  {
+    "text": "available at http://www.hhs.gov/ocio/policy/index.html. HHS Rules of Behavior 8 125",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 125
+  },
+  {
+    "text": "HHS Rules of Behavior 9 ACKNOWLEDGEMENT PAGE By completing this course, I acknowledge that I have read the HHS Rules of Behavior (HHS RoB), version HHS-OCIO-2013- 0003S, dated July 24, 2013 (or as amended) and understand and agree to comply with its provisions. I understand that violations of the HHS RoB or information security policies and standards may lead to disciplinary action, up to and including termination of employment; removal or debarment from work on Federal contracts or projects; and/or revocation of access to Federal information, information systems, and/or facilities; and may also include criminal penalties and/or imprisonment. I understand that exceptions to the HHS RoB must be authorized in advance in writing by the OPDIV Chief Information Officer or his/her designee. I also understand that violation of laws, such as the Privacy Act of 1974, copyright law, and 18 USC 2071, which the HHS RoB draw upon, can result in monetary fines and/or criminal charges that may result in imprisonment. APPROVED BY AND EFFECTIVE ON: /s/ July 24, 2013 Frank Baitman DATE HHS Chief Information Officer 126",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 126
+  },
+  {
+    "text": "USC 2071, which the HHS RoB draw upon, can result in monetary fines and/or criminal charges that may result in imprisonment. APPROVED BY AND EFFECTIVE ON: /s/ July 24, 2013 Frank Baitman DATE HHS Chief Information Officer 126",
+    "source": "cybersecurity-awareness.pdf",
+    "page": 126
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness CYBERSECURITY BASICS Cyber criminals target companies of all sizes. Knowing some cybersecurity basics and putting them in practice will help you protect your business and reduce the risk of a cyber attack. PROTECT YOUR FILES & DEVICES Update your software This includes your apps, web browsers, and operating systems. Set updates to happen automatically. Secure your files Back up important files offline, on an external hard drive, or in the cloud. Make sure you store your paper files securely, too. Require passwords Use passwords for all laptops, tablets, and smartphones. Don’t leave these devices unattended in public places. Encrypt devices Encrypt devices and other media that contain sensitive personal information. This includes laptops, tablets, smartphones, removable drives, backup tapes, and cloud storage solutions. Use multi-factor authentication Require multi-factor authentication to access areas of your network with sensitive information. This requires additional steps beyond logging in with a password — like a temporary code on a smartphone or a key that’s inserted into a computer. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 1
+  },
+  {
+    "text": "of your network with sensitive information. This requires additional steps beyond logging in with a password — like a temporary code on a smartphone or a key that’s inserted into a computer. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 1
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS PROTECT YOUR WIRELESS NETWORK Secure your router Change the default name and password, turn off remote management, and log out as the administrator once the router is set up. Use at least WPA2 encryption Make sure your router offers WPA2 or WPA3 encryption, and that it’s turned on. Encryption protects information sent over your network so it can’t be read by outsiders. MAKE YOUR BUSINESS AS USUAL SMART SECURITY Require strong passwords A strong password is at least 12 characters that are a mix of numbers, symbols, and capital lowercase letters. Never reuse passwords and don’t share them on the phone, in texts, or by email. Limit the number of unsuccessful log-in attempts to limit password-guessing attacks. Train all staff Create a culture of security by implementing a regular schedule of employee training. Update employees as you find out about new risks and vulnerabilities. If employees don’t attend, consider blocking their access to the network. Have a plan Have a plan for saving data, running the business, and notifying customers if you experience a breach. The",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 2
+  },
+  {
+    "text": "you find out about new risks and vulnerabilities. If employees don’t attend, consider blocking their access to the network. Have a plan Have a plan for saving data, running the business, and notifying customers if you experience a breach. The FTC’s Data Breach Response: A Guide for Business gives steps you can take. Y ou can find it at FTC.gov/DataBreach. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 2
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness Understanding THE NIST CYBERSECURITY FRAMEWORK You may have heard about the NIST Cybersecurity Framework, but what exactly is it? And does it apply to you? NIST is the National Institute of Standards and Technology at the U.S. Department of Commerce. The NIST Cybersecurity Framework helps businesses of all sizes better understand, manage, and reduce their cybersecurity risk and protect their networks and data. The Framework is voluntary. It gives your business an outline of best practices to help you decide where to focus your time and money for cybersecurity protection. Y ou can put the NIST Cybersecurity Framework to work in your business in these five areas: Identify, Protect, Detect, Respond, and Recover. 1. IDENTIFY Make a list of all equipment, software, and data you use, including laptops, smartphones, tablets, and point-of-sale devices. Create and share a company cybersecurity policy that covers: 2. PROTECT • Control who logs on to your network and uses your computers and other devices. • Use security software to protect data. • Encrypt sensitive data, at rest",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 3
+  },
+  {
+    "text": "devices. Create and share a company cybersecurity policy that covers: 2. PROTECT • Control who logs on to your network and uses your computers and other devices. • Use security software to protect data. • Encrypt sensitive data, at rest and in transit. • Conduct regular backups of data. • Update security software regularly , automating those updates if possible. • Have formal policies for safely disposing of electronic files and old devices. • T rain everyone who uses your computers, devices, and network about cybersecurity. Y ou can help employees understand their personal risk in addition to their crucial role in the workplace. Roles and responsibilities for employees, vendors, and anyone else with access to sensitive data. Steps to take to protect against an attack and limit the damage if one occurs.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 3
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS 3. DETECT Monitor your computers for unauthorized personnel access, devices (like USB drives), and software. Check your network for unauthorized users or connections. Investigate any unusual activities on your network or by your staff. 4. RESPOND Have a plan for: • Notifying customers, employees, and o thers whose data may be at risk. • K eeping business operations up and running. • R eporting the attack to law enforcement and other authorities. • Investigating and containing an attack. • Updating your cybersecurity policy and plan with lessons learned. • Preparing for inadvertent events (like weather emergencies) that may put data at risk. Test your plan regularly. 5. RECOVER After an attack: Repair and restore the equipment and parts of your network that were affected. Keep employees and customers informed of your response and recovery activities. For more information on the NIST Cybersecurity Framework and resources for small businesses, go to NIST.gov/CyberFramework and NIST.gov/Programs-Projects/Small-Business-Corner-SBC. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 4
+  },
+  {
+    "text": "more information on the NIST Cybersecurity Framework and resources for small businesses, go to NIST.gov/CyberFramework and NIST.gov/Programs-Projects/Small-Business-Corner-SBC. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 4
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness PHYSICAL SECURITY Cybersecurity begins with strong physical security. Lapses in physical security can expose sensitive company data to identity theft, with potentially serious consequences. For example: An employee accidentally leaves a flash drive on a coffeehouse table. When he returns hours later to get it, the drive — with hundreds of Social Security numbers saved on it — is gone. Another employee throws stacks of old company bank records into a trash can, where a criminal finds them after business hours. A burglar steals files and computers from your office after entering through an unlocked window. HOW TO PROTECT EQUIPMENT & PAPER FILES Here are some tips for protecting information in paper files and on hard drives, flash drives, laptops, point-of-sale devices, and other equipment. Store securely When paper files or electronic devices contain sensitive information, store them in a locked cabinet or room. Limit physical access When records or devices contain sensitive data, allow access only to those who need it. Send reminders Remind employees to put paper files in locked",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 5
+  },
+  {
+    "text": "devices contain sensitive information, store them in a locked cabinet or room. Limit physical access When records or devices contain sensitive data, allow access only to those who need it. Send reminders Remind employees to put paper files in locked file cabinets, log out of your network and applications, and never leave files or devices with sensitive data unattended. Keep stock Keep track of and secure any devices that collect sensitive customer information. Only keep files and data you need and know who has access to them.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 5
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS HOW TO PROTECT DATA ON YOUR DEVICES A burglary, lost laptop, stolen mobile phone, or misplaced flash drive — all can happen due to lapses in physical security. But they’re less likely to result in a data breach if information on those devices is protected. Here are a few ways to do that: Require complex passwords Require passwords that are long, complex, and unique. And make sure that these passwords are stored securely. Consider using a password manager. Use multi-factor authentication Require multi-factor authentication to access areas of your network with sensitive information. This requires additional steps beyond logging in with a password — like a temporary code on a smartphone or a key that’s inserted into a computer. Limit login attempts Limit the number of incorrect login attempts allowed to unlock devices. This will help protect against intruders. Encrypt Encrypt portable media, including laptops and thumb drives, that contain sensitive information. Encrypt any sensitive data you send outside of the company, like to an accountant or a shipping service. YOUR EMPLOYEES TRAIN Include physical security",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 6
+  },
+  {
+    "text": "protect against intruders. Encrypt Encrypt portable media, including laptops and thumb drives, that contain sensitive information. Encrypt any sensitive data you send outside of the company, like to an accountant or a shipping service. YOUR EMPLOYEES TRAIN Include physical security in your regular employee trainings and communications. R emind employees to: Shred documents Always shred documents with sensitive information before throwing them away. Erase data correctly Use software to erase data before donating or discarding old computers, mobile devices, digital copiers, and drives. Don’t rely on “delete ” alone. That does not actually remove the file from the computer. Promote security practices in all locations Maintain security practices even if working remotely from home or on business travel. Know the response plan All staff should know what to do if equipment or paper files are lost or stolen, including whom to notify and what to do next. Use Data Breach R esponse: A Guide for Business for help creating a response plan. Y ou can find it at FTC.gov/DataBreach. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 6
+  },
+  {
+    "text": "to notify and what to do next. Use Data Breach R esponse: A Guide for Business for help creating a response plan. Y ou can find it at FTC.gov/DataBreach. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 6
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness RANSOMWARE Someone in your company gets an email. It looks legitimate — but with one click on a link, or one download of an attachment, everyone is locked out of your network. That link downloaded software that holds your data hostage. That’s a ransomware attack. The attackers ask for money or cryptocurrency, but even if you pay, you don’t know if the cybercriminals will keep your data or destroy your files. Meanwhile, the information you need to run your business and sensitive details about your customers, employees, and company are now in criminal hands. Ransomware can take a serious toll on your business. HOW IT HAPPENS Criminals can start a ransomware attack in a variety of ways. Scam emails with links and attachments that put your data and network at risk. These phishing emails make up most ransomware attacks. Server vulnerabilities which can be exploited by hackers. Infected websites that automatically download malicious software onto your computer. Online ads that contain malicious code — even on websites you know and trust.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 7
+  },
+  {
+    "text": "phishing emails make up most ransomware attacks. Server vulnerabilities which can be exploited by hackers. Infected websites that automatically download malicious software onto your computer. Online ads that contain malicious code — even on websites you know and trust.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 7
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS HOW TO PROTECT YOUR BUSINESS Have a plan How would your business stay up and running after a ransomware attack? Put this plan in writing and share it with everyone who needs to know. Back up your data Regularly save important files to a drive or server that’s not connected to your network. Make data backup part of your routine business operations. Keep your security up to date Always install the latest patches and updates. Look for additional means of protection, like email authentication, and intrusion prevention software, and set them to update automatically on your computer. On mobile devices, you may have to do it manually. Alert your staff Teach them how to avoid phishing scams and show them some of the common ways computers and devices become infected. Include tips for spotting and protecting against ransomware in your regular orientation and training. WHAT TO DO IF YOU’RE ATTACKED Limit the damage Immediately disconnect the infected computers or devices from your network. If your data has been stolen, take steps to protect your company and",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 8
+  },
+  {
+    "text": "against ransomware in your regular orientation and training. WHAT TO DO IF YOU’RE ATTACKED Limit the damage Immediately disconnect the infected computers or devices from your network. If your data has been stolen, take steps to protect your company and notify those who might be affected. Contact the authorities Report the attack right away to your local FBI office. Keep your business running Now’s the time to implement that plan. Having data backed up will help. Should I pay the ransom? Law enforcement doesn’t recommend that, but it’s up to you to determine whether the risks and costs of paying are worth the possibility of getting your files back. However, paying the ransom may not guarantee you get your data back. Notify customers If your data or personal information was compromised, make sure you notify the affected parties ― they could be at risk of identity theft. Find information on how to do that at Data Breach Response: A Guide for Business. Y ou can find it at FTC.gov/DataBreach. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 8
+  },
+  {
+    "text": "could be at risk of identity theft. Find information on how to do that at Data Breach Response: A Guide for Business. Y ou can find it at FTC.gov/DataBreach. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 8
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS PHISHING LEARN MORE AT: FTC.gov/SmallBusiness You get an email that looks like it’s from someone you know. It seems to be from one of your company’s vendors and asks that you click on a link to update your business account. Should you click? Maybe it looks like it’s from your boss and asks for your network password. Should you reply? In either case, probably not. These may be phishing attempts. HOW WHAT YOU CAN DOPHISHING WORKS You get an email or text It seems to be from someone you know, and it asks you to click a link, or give your password, business bank account, or other sensitive information. Before you click on a link or share any of your sensitive business information: It looks real It’s easy to spoof logos and make up fake email addresses. Scammers use familiar company names or pretend to be someone you know. Check it out Look up the website or phone number for the company or person behind the text or email. Make sure that you’re getting the real",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 9
+  },
+  {
+    "text": "addresses. Scammers use familiar company names or pretend to be someone you know. Check it out Look up the website or phone number for the company or person behind the text or email. Make sure that you’re getting the real company and not about to download malware or talk to a scammer. Talk to someone Talking to a colleague might help you figure It’s urgent The message pressures you to act now — or something bad will happen. What happens next If you click on a link, scammers can install ransomware or other programs that can lock you out of your data and spread to the entire company network. If you share passwords, scammers now have access to all those accounts. out if the request is real or a phishing attempt. Make a call if you’re not sure Pick up the phone and call that vendor, colleague, or client who sent the email. Confirm that they really need information from you. Use a number you know to be correct, not the number in the email or text.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 9
+  },
+  {
+    "text": "the phone and call that vendor, colleague, or client who sent the email. Confirm that they really need information from you. Use a number you know to be correct, not the number in the email or text.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 9
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS HOW TO YOUR BUSINESS PROTECT Back up your data Regularly back up your data and make sure those backups are not connected to the network. That way, if a phishing attack happens and hackers get to your network, you can restore your data. Make data backup part of your routine business operations. Keep your security up to date Always install the latest patches and updates. Look for additional means of protection, like email authentication and intrusion prevention software, and set them to update automatically on your computers. On mobile devices, you may have to do it manually. Alert your staff Share with them this information. Keep in mind that phishing scammers change their tactics often, so make sure you include tips for spotting the latest phishing schemes in your regular training. Deploy a safety net Use email authentication technology to help prevent phishing emails from reaching your company’s inboxes in the first place. WHAT IF YOU FALL FOR A PHISHING SCHEME Alert others Talk to your colleagues and share your experience. Phishing attacks often happen to",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 10
+  },
+  {
+    "text": "email authentication technology to help prevent phishing emails from reaching your company’s inboxes in the first place. WHAT IF YOU FALL FOR A PHISHING SCHEME Alert others Talk to your colleagues and share your experience. Phishing attacks often happen to more than one person in a company. Limit the damage Immediately change any compromised passwords and disconnect from the network any computer or device that’s infected with malware. Follow your company’s procedures These may include notifying specific people in your organization or contractors that help you with IT. Notify customers If your data or personal information was compromised, make sure you notify the affected parties — they could be at risk of identity theft. Find information on how to do that at Data Breach Response: A Guide for Business (FTC.gov/DataBreach). Report it Forward phishing emails to spam@uce. gov (an address used by the FT C) and to reportphishing@apwg.org (an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies). Let the company or person that was impersonated know about the phishing scheme.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 10
+  },
+  {
+    "text": "used by the FT C) and to reportphishing@apwg.org (an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies). Let the company or person that was impersonated know about the phishing scheme. And report it to the FTC at FTC.gov/Complaint. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 10
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS BUSINESS EMAIL IMPOSTERS LEARN MORE AT: FTC.gov/SmallBusiness A scammer sets up an email address that looks like it’s from your company. Then the scammer sends out messages using that email address. This practice is called spoofing, and the scammer is what we call a business email imposter. Scammers do this to get passwords and bank account numbers or to get someone to send them money. When this happens, your company has a lot to lose. Customers and partners might lose trust and take their business elsewhere — and your business could then lose money. HOW TO PROTECT YOUR BUSINESS Use email authentication When you set up your business’s email, make sure the email provider offers email authentication technology. That way, when you send an email from your company’s server, the receiving servers can confirm that the email is really from you. If it’s not, the receiving servers may block the email and foil a business email imposter. Keep your security up to date Always install the latest patches and updates. Set them to update automatically on",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 11
+  },
+  {
+    "text": "email is really from you. If it’s not, the receiving servers may block the email and foil a business email imposter. Keep your security up to date Always install the latest patches and updates. Set them to update automatically on your network. Look for additional means of protection, like intrusion prevention software, which checks your network for suspicious activity and sends you alerts if it finds any. Train your staff Teach them how to avoid phishing scams and show them some of the common ways attackers can infect computers and devices with malware. Include tips for spotting and protecting against cyber threats in your regular employee trainings and communications.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 11
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS WHAT TO DO IF SOMEONE SPOOFS YOUR COMPANY’S EMAIL Report it Report the scam to local law enforcement, the FBI’s Internet Crime Complaint Center at IC3.gov, and the FTC at FTC.gov/ Complaint. You can also forward phishing emails to spam@ uce.gov (an address us ed by the FTC) and to reportphishing@ apwg.org (an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies). Notify your customers If you find out scammers are impersonating your business, tell your customers as soon as possible — by mail, email, or social media. If you email your customers, send an email without hyperlinks. Y ou don’t want your notification email to look like a phishing scam. Remind customers not to share any personal information through email or text. If your customers’ data was stolen, direct them to IdentityTheft.gov to get a recovery plan. Alert your staff Use this experience to update your security practices and train your staff about cyber threats. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 12
+  },
+  {
+    "text": "was stolen, direct them to IdentityTheft.gov to get a recovery plan. Alert your staff Use this experience to update your security practices and train your staff about cyber threats. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 12
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness TECH SUPPORT SCAMS You get a phone call, pop-up, or email telling you there’s a problem with your computer. Often, scammers are behind these calls, pop-up messages, and emails. They want to get your money, personal information, or access to your files. This can harm your network, put your data at risk, and damage your business. HOW THE SCAM WORKS The scammers may pretend to be from a well-known tech company, such as Microsoft. They use lots of technical terms to convince you that the problems with your computer are real. They may ask you to open some files or run a scan on your computer — and then tell you those files or the scan results show a problem…but there isn’t one. The scammers may then: Ask you to give them remote access to your computer — which lets them access all information stored on it, and on any network connected to it Install malware that gives them access to your computer and sensitive data, like user names and passwords Try",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 13
+  },
+  {
+    "text": "remote access to your computer — which lets them access all information stored on it, and on any network connected to it Install malware that gives them access to your computer and sensitive data, like user names and passwords Try to sell you software or repair services that are worthless or available elsewhere for free Try to enroll you in a worthless computer maintenance or warranty program Ask for credit card information so they can bill you for phony services or services available elsewhere for free Direct you to websites and ask you to enter credit card, bank account, and other personal information",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 13
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS HOW TO PROTECT YOUR BUSINESS If a caller says your computer has a problem, hang up. A tech support call you don’t expect is a scam — even if the number is local or looks legitimate. These scammers use fake caller ID information to look like local businesses or trusted companies. If you get a pop-up message to call tech support, ignore it. Some pop-up messages about computer issues are legitimate, but do not call a number or click on a link that appears in a pop-up message warning you of a computer problem. If you’re worried about a virus or other threat, call your security software company directly, using the phone number on its website, the sales receipt, or the product packaging. Or consult a trusted security professional. Never give someone your password, and don’t give remote access to your computer to someone who contacts you unexpectedly. WHAT TO DO IF YOU’RE SCAMMED If you shared your password with a scammer, change it on every account that uses this password. Remember to use unique passwords",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 14
+  },
+  {
+    "text": "give remote access to your computer to someone who contacts you unexpectedly. WHAT TO DO IF YOU’RE SCAMMED If you shared your password with a scammer, change it on every account that uses this password. Remember to use unique passwords for each account and service. Consider using a password manager. Get rid of malware. Update or download legitimate security software. Scan your computer, and delete anything the software says is a problem. If you need help, consult a trusted security professional. If the affected computer is connected to your network, you or a security professional should check the entire network for intrusions. If you bought bogus services, ask your credit card company to reverse the charges, and check your statement for any charges you didn’t approve. Keep checking your credit card statements to make sure the scammer doesn’t try to re-charge you every month. Report the attack right away to the FTC at FTC.gov/Complaint. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 14
+  },
+  {
+    "text": "re-charge you every month. Report the attack right away to the FTC at FTC.gov/Complaint. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 14
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS FTC.gov/SmallBusiness LEARN MORE AT: CYBER INSURANCE Recovering from a cyber attack can be costly. Cyber insurance is one option that can help protect your business against losses resulting from a cyber attack. If you’re thinking about cyber insurance, discuss with your insurance agent what policy would best fit your company’s needs, including whether you should go with first-party coverage, third-party coverage, or both. Here are some general tips to consider. WHAT SHOULD YOUR CYBER INSURANCE POLICY COVER? Make sure your policy includes coverage for: Data breaches (like incidents involving theft of personal information) Cyber attacks (like breaches of your network) Cyber attacks on your data held by vendors and other third parties Cyber attacks that occur anywhere in the world (not only in the United States) Terrorist acts Also, consider whether your cyber insurance provider will: Defend you in a lawsuit or regulatory investigation (look for “duty to defend” wording) Provide coverage in excess of any other applicable insurance you have Offer a breach hotline that’s available every day of the year at all times The",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 15
+  },
+  {
+    "text": "Defend you in a lawsuit or regulatory investigation (look for “duty to defend” wording) Provide coverage in excess of any other applicable insurance you have Offer a breach hotline that’s available every day of the year at all times The FTC thanks the National Association of Insurance Commissioners (NAIC) for its role in developing this content.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 15
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS WHAT IS FIRST-PARTY COVERAGE AND WHAT SHOULD YOU LOOK FOR? First-party cyber coverage protects your data, including employee and customer information. This coverage typically includes your business’s costs related to: Legal counsel to determine your notification and regulatory obligations Recovery and replacement of lost or stolen data Customer notification and call center services Lost income due to business interruption Crisis management and public relations Cyber extortion and fraud Forensic services to investigate the breach Fees, fines, and penalties related to the cyber incident WHAT IS AND WHAT SHOULD YOU LOOK FOR? THIRD-PARTY COVERAGE Third-party cyber coverage generally protects you from liability if a third party brings claims against you. This coverage typically includes: Payments to consumers affected by the breach Costs for litigation and responding to regulatory inquiries Claims and settlement expenses relating to disputes or lawsuits Losses related to defamation and copyright or trademark infringement Other settlements, damages, and judgments Accounting costs More insurance resources for small businesses available at www.insureuonline.org/smallbusiness LEARN MORE AT: FTC.gov/SmallBusiness The FTC thanks the National Association of Insurance Commissioners (NAIC)",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 16
+  },
+  {
+    "text": "lawsuits Losses related to defamation and copyright or trademark infringement Other settlements, damages, and judgments Accounting costs More insurance resources for small businesses available at www.insureuonline.org/smallbusiness LEARN MORE AT: FTC.gov/SmallBusiness The FTC thanks the National Association of Insurance Commissioners (NAIC) for its role in developing this content.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 16
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS EMAIL AUTHENTICATION Email authentication technology makes it a lot harder for a scammer to send phishing emails that look like they’re from your company. Using email authentication technology makes it a lot harder for scammers to send phishing emails. This technology allows a receiving server to verify an email from your company and block emails from an imposter — or send them to a quarantine folder and then notify you about them. WHAT TO KNOW Some web host providers let you set up your company’s business email using your domain name (which you may think of as your website name). Y our domain name might look like this: yourbusiness.com. And your email may look like this: name@yourbusiness.com. Without email authentication, scammers can use that domain name to send emails that look like they’re from your business. If your business email uses your company’s domain name, make sure that your email provider has these three email authentication tools: Sender Policy Framework (SPF) tells other servers which servers are allowed to send emails using your business’s domain name.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 17
+  },
+  {
+    "text": "If your business email uses your company’s domain name, make sure that your email provider has these three email authentication tools: Sender Policy Framework (SPF) tells other servers which servers are allowed to send emails using your business’s domain name. So when you send an email from name@yourbusiness. com, the receiving server can confirm that the sending server is on an approved list. If it is, the receiving server lets the email through. If it can’t find a match, the email can be flagged as suspicious. Domain Keys Identified Mail (DKIM) puts a digital signature on outgoing mail so servers can verify that an email from your domain actually was sent from your organization’s servers and hasn’t been tampered with in transit. Domain-based Message Authentication, Reporting & Conformance (DMARC) is the essential third tool for email authentication. SPF and DKIM verify the address the server uses “behind the scenes.” DMARC verifies that this address matches the “from” address you see. It also lets you tell other servers what to do when they get an email that looks like it came",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 17
+  },
+  {
+    "text": "verify the address the server uses “behind the scenes.” DMARC verifies that this address matches the “from” address you see. It also lets you tell other servers what to do when they get an email that looks like it came from your domain, but the receiving server has reason to be suspicious (based on SPF or DKIM). Y ou can have other servers reject the email, flag it as spam, or take no action. Y ou also can set up DMARC so that you’re notified when this happens. It takes some expertise to configure these tools so that they work as intended and don’t block legitimate email. Make sure that your email hosting provider can set them up if you don’t have the technical knowledge. If they can’t, or don’t include that in their service agreement, consider getting another provider. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 17
+  },
+  {
+    "text": "LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 17
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS WHAT TO DO IF YOUR EMAIL IS SPOOFED Email authentication helps keep your business’s email from being used in phishing schemes because it notifies you if someone spoofs your company’s email. If you get that notification, take these actions: Report it Report the scam to local law enforcement, the FBI’s Internet Crime Complaint Center at IC3.gov, and the FTC at FTC.gov/Complaint. Y ou also can forward phishing emails to spam@uce.gov (an address used by the FTC) and to reportphishing@apwg.org (an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies). Notify your customers If you find out scammers are impersonating your business, tell your customers as soon as possible — by mail, email, or social media. If you email your customers, send an email without hyperlinks: you don’t want your notification email to look like a phishing scam. Remind customers not to share any personal information through email or text. And if your customers’ data was stolen, direct them to IdentityTheft.gov to get a recovery plan. Alert your",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 18
+  },
+  {
+    "text": "want your notification email to look like a phishing scam. Remind customers not to share any personal information through email or text. And if your customers’ data was stolen, direct them to IdentityTheft.gov to get a recovery plan. Alert your staff Use this experience to update your security practices and train your staff about cyber threats. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 18
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness VENDOR SECURITY Your business vendors may have access to sensitive information. Make sure those vendors are securing their own computers and networks. For example, what if your accountant, who has all your financial data, loses his laptop? Or a vendor whose network is connected to yours gets hacked? The result: your business data and your customers’ personal information may end up in the wrong hands — putting your business and your customers at risk. HOW TO MONITOR YOUR VENDORS Put it in writing Include provisions for security in your vendor contracts, like a plan to evaluate and update security controls, since threats change. Make the security provisions that are critical to your company non-negotiable. Verify compliance Establish processes so you can confirm that vendors follow your rules. Don’t just take their word for it. Make changes as needed Cybersecurity threats change rapidly. Make sure your vendors keep their security up to date.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 19
+  },
+  {
+    "text": "for it. Make changes as needed Cybersecurity threats change rapidly. Make sure your vendors keep their security up to date.",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 19
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS HOW TO PROTECT YOUR BUSINESS Control access Put controls on databases with sensitive information. Limit access to a need-to-know basis, and only for the amount of time a vendor needs to do a job. Use multi-factor authentication This makes vendors take additional steps beyond logging in with a password to access your network — like a temporary code on a smartphone or a key that’s inserted into a computer. Secure your network Require strong passwords: at least 12 characters with a mix of numbers, symbols, and both capital and lowercase letters. Never reuse passwords, don’t share them, and limit the number of unsuccessful log-in attempts to limit password-guessing attacks. Safeguard your data Use properly configured, strong encryption. This protects sensitive information as it’s transferred and stored. WHAT TO DO IF A VENDOR HAS A DATA BREACH Contact the authorities Report the attack right away to your local police department. If they’re not familiar with investigating information compromises, contact your local FBI office. Confirm the vendor has a fix Make sure that the vendor fixes the vulnerabilities",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 20
+  },
+  {
+    "text": "Contact the authorities Report the attack right away to your local police department. If they’re not familiar with investigating information compromises, contact your local FBI office. Confirm the vendor has a fix Make sure that the vendor fixes the vulnerabilities and ensures that your information will be safe going forward, if your business decides to continue using the vendor. Notify customers If your data or personal information was compromised, make sure you notify the affected parties — they could be at risk of identity theft. Find information on how to do that at Data Breach Response: A Guide for Business. Find it at FTC.gov/DataBreach. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 20
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness HIRING A WEB HOST You may want a new or upgraded website for your business. But if you don’t have the skills to set up the web presence you want, you may want to hire a web host provider to do it for you. Whether you’re upgrading a website or launching a new business, there are many web-hosting options. When comparing services, security should be a top concern. WHAT TO LOOK FOR Transport Layer Security (TLS) The service you choose should include TLS, which will help to protect your customers’ privacy. (Y ou may have heard of its predecessor, Secure Sockets Layer, or SSL.) TLS helps make sure that your customers get to your real website when they type your URL into the address bar. When TLS is correctly implemented on your website, your URL will begin with https://. TLS also helps make sure the information sent to your website is encrypted. That’s especially important if you ask customers for sensitive information, like credit card numbers or passwords. Email authentication Some web",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 21
+  },
+  {
+    "text": "website, your URL will begin with https://. TLS also helps make sure the information sent to your website is encrypted. That’s especially important if you ask customers for sensitive information, like credit card numbers or passwords. Email authentication Some web host providers let you set up your company’s business email using your domain name (that’s part of your URL, and what you may think of as your website name). Y our domain name might look like this: yourbusiness.com. And your email may look like this: name@yourbusiness.com. If you don’t have email authentication, scammers can impersonate that domain name and send emails that look like they’re from your business. When your business email is set up using your company’s domain name, make sure that your web host can give you these three email authentication tools: • Sender P olicy Framework (SPF) • Domain Keys Identified Mail (DKIM) • Domain-based Message Authentication, Reporting & Conformance (DMARC)",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 21
+  },
+  {
+    "text": "• Domain Keys Identified Mail (DKIM) • Domain-based Message Authentication, Reporting & Conformance (DMARC)",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 21
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS WHAT TO LOOK FOR Software updates Many web host providers offer pre-built websites or software packages designed to make it quick and easy to set up your company’s website. As with any software, it is essential that you use the latest versions with up-to-date security patches. Make sure you know how to keep the website’s software up to date, or whether the web host provider will do this for you. Website management If a web host provider is managing your website, you may have to go through that provider to make any changes — though you may be able to log in and make some changes yourself. Some web host providers may instead offer you the option of managing the website on your own. It’s important to clarify from the beginning who will manage the website after it’s built. WHAT TO ASK When you’re hiring a web host provider, ask these questions to make sure you’re helping protect your customer information and your business data. Is TLS included in the hosting plan? paid add-on? Will I",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 22
+  },
+  {
+    "text": "after it’s built. WHAT TO ASK When you’re hiring a web host provider, ask these questions to make sure you’re helping protect your customer information and your business data. Is TLS included in the hosting plan? paid add-on? Will I set it up myself or will you help me set it up? Can my business email use my business website name? If so, can you help me set up SPF, DKIM, and DMARC email authentication technology? (If not, consider looking for a provider that does.) Are the most up-to-date software versions available with your service, and will you keep software updated? If it’s my responsibility to keep software updated, is it easy for me to do? After the website is set up, who will be able to make changes to it? Will I have to go through you? Will I be able to log in and make changes on my own? If I can log in to make changes, is multi-factor authentication available? LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 22
+  },
+  {
+    "text": "be able to log in and make changes on my own? If I can log in to make changes, is multi-factor authentication available? LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 22
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS LEARN MORE AT: FTC.gov/SmallBusiness SECURE REMOTE ACCESS Employees and vendors may need to connect to your network remotely. Put your network’s security first. Make employees and vendors follow strong security standards before they connect to your network. Give them the tools to make security part of their work routine. HOW TO PROTECT DEVICES Whether employees or vendors use company-issued devices or their own when connecting remotely to your network, those devices should be secure. Follow these tips — and make sure your employees and vendors do as well: Always change any pre-set router passwords and the default name of your router. And keep the router’s software up to date; you may have to visit the router’s website often to do so. Consider enabling full-disk encryption for laptops and other mobile devices that connect remotely to your network. Check your operating system for this option, which will protect any data stored on the device if it’s lost or stolen. This is especially important if the device stores any sensitive personal information. Change smartphone settings to stop automatic",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 23
+  },
+  {
+    "text": "network. Check your operating system for this option, which will protect any data stored on the device if it’s lost or stolen. This is especially important if the device stores any sensitive personal information. Change smartphone settings to stop automatic connections to public Wi-Fi. Keep up-to-date antivirus software on devices that connect to your network, including mobile devices. LEARN MORE AT:",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 23
+  },
+  {
+    "text": "CYBERSECURITY FOR SMALL BUSINESS HOW TO CONNECT TO THE NETWORK REMOTEL Y Require employees and vendors to use secure connections when connecting remotely to your network. They should: Use a router with WPA2 or WPA3 encryption when connecting from their homes. Encryption protects information sent over a network so that outsiders can’t read it. WPA2 and WPA3 are the only encryption standards that will protect information sent over a wireless network. Only use public Wi-Fi when also using a virtual private network (VPN) to encrypt traffic between their computers and the internet. Public Wi-Fi does not provide a secure internet connection on its own. Y our employees can get a personal VPN account from a VPN service provider, or you may want to hire a vendor to create an enterprise VPN for all employees to use. WHAT TO DO TO MAINTAIN SECURITY Include information on secure remote access in regular trainings and new staff orientations. Have policies covering basic cybersecurity, give copies to your employees, and explain the importance of following them. Before letting any device — whether at an",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 24
+  },
+  {
+    "text": "MAINTAIN SECURITY Include information on secure remote access in regular trainings and new staff orientations. Have policies covering basic cybersecurity, give copies to your employees, and explain the importance of following them. Before letting any device — whether at an employee’s home or on a vendor’s network — connect to your network, make sure it meets your network’s security requirements. Tell your staff about the risks of public Wi-Fi. Train your staff: Give your staff tools that will help maintain security: • Require employees to use unique, complex network passwords and avoid unattended, open workstations. • Require multi-factor authentication to access areas of your network that have sensitive information. This requires additional steps beyond logging in with a password — like a temporary code on a smartphone or a k ey that’s inserted into a computer. • If you offer Wi-Fi on your business premises for guests and customers, make sure it’s separate from and not connected to your business network. • Consider creating a VPN for employees to use when connecting remotely to the business network. • Include provisions",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 24
+  },
+  {
+    "text": "Wi-Fi on your business premises for guests and customers, make sure it’s separate from and not connected to your business network. • Consider creating a VPN for employees to use when connecting remotely to the business network. • Include provisions for security in your vendor contracts, especially if the vendor will be connecting remotely to your network. LEARN MORE AT: FTC.gov/SmallBusiness",
+    "source": "cybersecuirty_sb_factsheets_all.pdf",
+    "page": 24
+  },
+  {
+    "text": "Put your .txt and .pdf documents in this folder. For your first test, create a small file like \"topic.txt\" with a few sentences. Then run: python build_index.py",
+    "source": "README.txt",
+    "page": null
+  }
+]
