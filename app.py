@@ -315,9 +315,15 @@ def _build_arg_parser() -> argparse.ArgumentParser:
         description="Query the local FAISS index and ask a hosted Hugging Face model."
     )
     parser.add_argument(
-        "question",
+        "question_tokens",
         nargs="*",
         help="Question to ask. If omitted, the script prompts via stdin.",
+    )
+    parser.add_argument(
+        "-q",
+        "--question",
+        dest="question_text",
+        help="Provide the question explicitly without relying on positional arguments.",
     )
     parser.add_argument(
         "-k",
@@ -377,7 +383,7 @@ def main(argv: List[str] | None = None) -> int:
     parser = _build_arg_parser()
     args = parser.parse_args(argv)
 
-    question = " ".join(args.question).strip()
+    question = (args.question_text or " ".join(args.question_tokens)).strip()
     if not question:
         question = _prompt_for_question()
 

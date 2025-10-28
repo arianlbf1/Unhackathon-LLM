@@ -60,6 +60,11 @@ Or enter the question interactively and inspect the retrieved context:
 python app.py --show-context
 ```
 
+If you prefer an explicit flag (useful when the question begins with dashes or you want to script it), use `--question`/`-q`:
+```bash
+python app.py --question "What does the topic document mention?"
+```
+
 The script prints the answer, source list, and (optionally) the retrieved passages so you can debug embedding, retrieval, and prompting issues without spinning up a UI. Use `--hf-model` or `--hf-token` to override the defaults directly from the command line when experimenting with different hosted models.
 
 ---
